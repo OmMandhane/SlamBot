@@ -1,0 +1,6 @@
+Invoking command in '/home/om/slambot/build/bumperbot_bringup': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/om/slambot/src/bumperbot_bringup -DCMAKE_INSTALL_PREFIX=/home/om/slambot/install/bumperbot_bringup
+Invoked command in '/home/om/slambot/build/bumperbot_bringup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/om/slambot/src/bumperbot_bringup -DCMAKE_INSTALL_PREFIX=/home/om/slambot/install/bumperbot_bringup
+Invoking command in '/home/om/slambot/build/bumperbot_bringup': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/om/slambot/build/bumperbot_bringup -- -j8 -l8
+Invoked command in '/home/om/slambot/build/bumperbot_bringup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/om/slambot/build/bumperbot_bringup -- -j8 -l8
+Invoking command in '/home/om/slambot/build/bumperbot_bringup': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/om/slambot/build/bumperbot_bringup
+Invoked command in '/home/om/slambot/build/bumperbot_bringup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/om/slambot/build/bumperbot_bringup

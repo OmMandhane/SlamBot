@@ -1,0 +1,40 @@
+[0.016s] Invoking command in '/home/om/slambot/build/bumperbot_cpp_examples': AMENT_PREFIX_PATH=/home/om/slambot/install/bumperbot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/om/slambot/install/bumperbot_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/om/slambot/install/bumperbot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/om/slambot/install/bumperbot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/om/slambot/build/bumperbot_cpp_examples -- -j8 -l8
+[0.101s] [ 12%] Built target simple_subscriber
+[0.103s] [ 37%] Built target simple_publisher
+[0.103s] [ 37%] Built target simple_service_server
+[0.106s] [ 50%] Built target simple_parameter
+[0.106s] [ 62%] Built target simple_turtlesim_kinematics
+[0.113s] [ 75%] Built target simple_service_client
+[0.113s] [ 87%] Built target simple_tf_kinematics
+[0.116s] [100%] Built target simple_lifecycle_node
+[0.347s] Invoked command in '/home/om/slambot/build/bumperbot_cpp_examples' returned '0': AMENT_PREFIX_PATH=/home/om/slambot/install/bumperbot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/om/slambot/install/bumperbot_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/om/slambot/install/bumperbot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/om/slambot/install/bumperbot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/om/slambot/build/bumperbot_cpp_examples -- -j8 -l8
+[0.416s] Invoking command in '/home/om/slambot/build/bumperbot_cpp_examples': AMENT_PREFIX_PATH=/home/om/slambot/install/bumperbot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/om/slambot/install/bumperbot_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/om/slambot/install/bumperbot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/om/slambot/install/bumperbot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/om/slambot/build/bumperbot_cpp_examples
+[0.425s] -- Install configuration: ""
+[0.425s] -- Up-to-date: /home/om/slambot/install/bumperbot_cpp_examples/include/include
+[0.426s] -- Up-to-date: /home/om/slambot/install/bumperbot_cpp_examples/include/include/bumperbot_cpp_examples
+[0.426s] -- Up-to-date: /home/om/slambot/install/bumperbot_cpp_examples/include/include/bumperbot_cpp_examples/simple_turtlesim_kinematics.hpp
+[0.426s] -- Up-to-date: /home/om/slambot/install/bumperbot_cpp_examples/include/include/bumperbot_cpp_examples/simple_tf_kinematics.hpp
+[0.426s] -- Up-to-date: /home/om/slambot/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_publisher
+[0.426s] -- Up-to-date: /home/om/slambot/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_subscriber
+[0.427s] -- Up-to-date: /home/om/slambot/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_parameter
+[0.427s] -- Up-to-date: /home/om/slambot/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_turtlesim_kinematics
+[0.427s] -- Up-to-date: /home/om/slambot/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_service_server
+[0.427s] -- Up-to-date: /home/om/slambot/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_service_client
+[0.427s] -- Up-to-date: /home/om/slambot/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_tf_kinematics
+[0.427s] -- Up-to-date: /home/om/slambot/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_lifecycle_node
+[0.427s] -- Up-to-date: /home/om/slambot/install/bumperbot_cpp_examples/share/ament_index/resource_index/package_run_dependencies/bumperbot_cpp_examples
+[0.428s] -- Up-to-date: /home/om/slambot/install/bumperbot_cpp_examples/share/ament_index/resource_index/parent_prefix_path/bumperbot_cpp_examples
+[0.428s] -- Up-to-date: /home/om/slambot/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/environment/ament_prefix_path.sh
+[0.428s] -- Up-to-date: /home/om/slambot/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/environment/ament_prefix_path.dsv
+[0.428s] -- Up-to-date: /home/om/slambot/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/environment/path.sh
+[0.428s] -- Up-to-date: /home/om/slambot/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/environment/path.dsv
+[0.428s] -- Up-to-date: /home/om/slambot/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/local_setup.bash
+[0.428s] -- Up-to-date: /home/om/slambot/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/local_setup.sh
+[0.428s] -- Up-to-date: /home/om/slambot/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/local_setup.zsh
+[0.428s] -- Up-to-date: /home/om/slambot/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/local_setup.dsv
+[0.428s] -- Installing: /home/om/slambot/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/package.dsv
+[0.428s] -- Up-to-date: /home/om/slambot/install/bumperbot_cpp_examples/share/ament_index/resource_index/packages/bumperbot_cpp_examples
+[0.428s] -- Up-to-date: /home/om/slambot/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/cmake/bumperbot_cpp_examplesConfig.cmake
+[0.428s] -- Up-to-date: /home/om/slambot/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/cmake/bumperbot_cpp_examplesConfig-version.cmake
+[0.429s] -- Up-to-date: /home/om/slambot/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/package.xml
+[0.432s] Invoked command in '/home/om/slambot/build/bumperbot_cpp_examples' returned '0': AMENT_PREFIX_PATH=/home/om/slambot/install/bumperbot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/om/slambot/install/bumperbot_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/om/slambot/install/bumperbot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/om/slambot/install/bumperbot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/om/slambot/build/bumperbot_cpp_examples

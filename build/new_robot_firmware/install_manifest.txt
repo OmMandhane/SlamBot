@@ -1,0 +1,15 @@
+/home/om/slambot/install/new_robot_firmware/share/ament_index/resource_index/package_run_dependencies/new_robot_firmware
+/home/om/slambot/install/new_robot_firmware/share/ament_index/resource_index/parent_prefix_path/new_robot_firmware
+/home/om/slambot/install/new_robot_firmware/share/new_robot_firmware/environment/ament_prefix_path.sh
+/home/om/slambot/install/new_robot_firmware/share/new_robot_firmware/environment/ament_prefix_path.dsv
+/home/om/slambot/install/new_robot_firmware/share/new_robot_firmware/environment/path.sh
+/home/om/slambot/install/new_robot_firmware/share/new_robot_firmware/environment/path.dsv
+/home/om/slambot/install/new_robot_firmware/share/new_robot_firmware/local_setup.bash
+/home/om/slambot/install/new_robot_firmware/share/new_robot_firmware/local_setup.sh
+/home/om/slambot/install/new_robot_firmware/share/new_robot_firmware/local_setup.zsh
+/home/om/slambot/install/new_robot_firmware/share/new_robot_firmware/local_setup.dsv
+/home/om/slambot/install/new_robot_firmware/share/new_robot_firmware/package.dsv
+/home/om/slambot/install/new_robot_firmware/share/ament_index/resource_index/packages/new_robot_firmware
+/home/om/slambot/install/new_robot_firmware/share/new_robot_firmware/cmake/new_robot_firmwareConfig.cmake
+/home/om/slambot/install/new_robot_firmware/share/new_robot_firmware/cmake/new_robot_firmwareConfig-version.cmake
+/home/om/slambot/install/new_robot_firmware/share/new_robot_firmware/package.xml

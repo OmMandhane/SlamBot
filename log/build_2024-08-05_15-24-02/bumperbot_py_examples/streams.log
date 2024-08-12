@@ -1,0 +1,28 @@
+[0.854s] Invoking command in '/home/om/slambot/src/bumperbot_py_examples': AMENT_PREFIX_PATH=/home/om/slambot/install/bumperbot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/om/slambot/install/bumperbot_msgs LD_LIBRARY_PATH=/home/om/slambot/install/bumperbot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/om/slambot/build/bumperbot_py_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/om/slambot/install/bumperbot_py_examples/lib/python3.10/site-packages:/home/om/slambot/install/bumperbot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/bumperbot_py_examples build --build-base /home/om/slambot/build/bumperbot_py_examples/build install --record /home/om/slambot/build/bumperbot_py_examples/install.log --single-version-externally-managed install_data
+[1.119s] running egg_info
+[1.120s] writing ../../build/bumperbot_py_examples/bumperbot_py_examples.egg-info/PKG-INFO
+[1.120s] writing dependency_links to ../../build/bumperbot_py_examples/bumperbot_py_examples.egg-info/dependency_links.txt
+[1.120s] writing entry points to ../../build/bumperbot_py_examples/bumperbot_py_examples.egg-info/entry_points.txt
+[1.120s] writing requirements to ../../build/bumperbot_py_examples/bumperbot_py_examples.egg-info/requires.txt
+[1.120s] writing top-level names to ../../build/bumperbot_py_examples/bumperbot_py_examples.egg-info/top_level.txt
+[1.123s] reading manifest file '../../build/bumperbot_py_examples/bumperbot_py_examples.egg-info/SOURCES.txt'
+[1.129s] writing manifest file '../../build/bumperbot_py_examples/bumperbot_py_examples.egg-info/SOURCES.txt'
+[1.130s] running build
+[1.130s] running build_py
+[1.131s] running install
+[1.131s] running install_lib
+[1.133s] running install_data
+[1.133s] running install_egg_info
+[1.136s] removing '/home/om/slambot/install/bumperbot_py_examples/lib/python3.10/site-packages/bumperbot_py_examples-0.0.0-py3.10.egg-info' (and everything under it)
+[1.136s] Copying ../../build/bumperbot_py_examples/bumperbot_py_examples.egg-info to /home/om/slambot/install/bumperbot_py_examples/lib/python3.10/site-packages/bumperbot_py_examples-0.0.0-py3.10.egg-info
+[1.137s] running install_scripts
+[1.159s] Installing simple_lifecycle_node script to /home/om/slambot/install/bumperbot_py_examples/lib/bumperbot_py_examples
+[1.159s] Installing simple_parameter script to /home/om/slambot/install/bumperbot_py_examples/lib/bumperbot_py_examples
+[1.159s] Installing simple_publisher script to /home/om/slambot/install/bumperbot_py_examples/lib/bumperbot_py_examples
+[1.160s] Installing simple_service_client script to /home/om/slambot/install/bumperbot_py_examples/lib/bumperbot_py_examples
+[1.160s] Installing simple_service_server script to /home/om/slambot/install/bumperbot_py_examples/lib/bumperbot_py_examples
+[1.160s] Installing simple_subscriber script to /home/om/slambot/install/bumperbot_py_examples/lib/bumperbot_py_examples
+[1.160s] Installing simple_tf_kinematics script to /home/om/slambot/install/bumperbot_py_examples/lib/bumperbot_py_examples
+[1.160s] Installing simple_turtlesim_kinematics script to /home/om/slambot/install/bumperbot_py_examples/lib/bumperbot_py_examples
+[1.160s] writing list of installed files to '/home/om/slambot/build/bumperbot_py_examples/install.log'
+[1.193s] Invoked command in '/home/om/slambot/src/bumperbot_py_examples' returned '0': AMENT_PREFIX_PATH=/home/om/slambot/install/bumperbot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/om/slambot/install/bumperbot_msgs LD_LIBRARY_PATH=/home/om/slambot/install/bumperbot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/om/slambot/build/bumperbot_py_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/om/slambot/install/bumperbot_py_examples/lib/python3.10/site-packages:/home/om/slambot/install/bumperbot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/bumperbot_py_examples build --build-base /home/om/slambot/build/bumperbot_py_examples/build install --record /home/om/slambot/build/bumperbot_py_examples/install.log --single-version-externally-managed install_data

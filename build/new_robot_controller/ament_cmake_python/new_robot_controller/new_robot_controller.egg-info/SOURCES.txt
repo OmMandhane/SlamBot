@@ -1,0 +1,7 @@
+setup.py
+new_robot_controller/__init__.py
+new_robot_controller/simple_controller.py
+new_robot_controller.egg-info/PKG-INFO
+new_robot_controller.egg-info/SOURCES.txt
+new_robot_controller.egg-info/dependency_links.txt
+new_robot_controller.egg-info/top_level.txt

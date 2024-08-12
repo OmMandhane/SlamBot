@@ -1,0 +1,40 @@
+[0.033s] Invoking command in '/home/om/slambot/build/bumperbot_cpp_examples': CMAKE_PREFIX_PATH=/home/om/slambot/install/bumperbot_msgs:/home/om/slambot/install/rplidar_ros:/home/om/slambot/install/new_robot_firmware:/home/om/slambot/install/new_robot_description:/home/om/slambot/install/new_robot_controller:/home/om/slambot/install/new_practice_bringup:/home/om/slambot/install/bumperbot_cpp_examples:/home/om/slambot/install/bumperbot_localization:/home/om/slambot/install/bumperbot_firmware:/home/om/slambot/install/bumperbot_description:/home/om/slambot/install/bumperbot_controller:/home/om/slambot/install/bumperbot_bringup:/home/om/slambot/install/bumperbot_py_examples:/opt/ros/humble LD_LIBRARY_PATH=/home/om/slambot/install/bumperbot_msgs/lib:/home/om/slambot/install/rplidar_ros/lib:/home/om/slambot/install/bumperbot_firmware/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/om/slambot/build/bumperbot_cpp_examples -- -j8 -l8
+[0.172s] [ 12%] Built target simple_publisher
+[0.177s] [ 25%] Built target simple_parameter
+[0.179s] [ 37%] Built target simple_turtlesim_kinematics
+[0.187s] [ 50%] Built target simple_subscriber
+[0.192s] [ 62%] Built target simple_service_client
+[0.198s] [ 75%] Built target simple_service_server
+[0.199s] [ 87%] Built target simple_tf_kinematics
+[0.233s] [100%] Built target simple_lifecycle_node
+[0.630s] Invoked command in '/home/om/slambot/build/bumperbot_cpp_examples' returned '0': CMAKE_PREFIX_PATH=/home/om/slambot/install/bumperbot_msgs:/home/om/slambot/install/rplidar_ros:/home/om/slambot/install/new_robot_firmware:/home/om/slambot/install/new_robot_description:/home/om/slambot/install/new_robot_controller:/home/om/slambot/install/new_practice_bringup:/home/om/slambot/install/bumperbot_cpp_examples:/home/om/slambot/install/bumperbot_localization:/home/om/slambot/install/bumperbot_firmware:/home/om/slambot/install/bumperbot_description:/home/om/slambot/install/bumperbot_controller:/home/om/slambot/install/bumperbot_bringup:/home/om/slambot/install/bumperbot_py_examples:/opt/ros/humble LD_LIBRARY_PATH=/home/om/slambot/install/bumperbot_msgs/lib:/home/om/slambot/install/rplidar_ros/lib:/home/om/slambot/install/bumperbot_firmware/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/om/slambot/build/bumperbot_cpp_examples -- -j8 -l8
+[0.731s] Invoking command in '/home/om/slambot/build/bumperbot_cpp_examples': CMAKE_PREFIX_PATH=/home/om/slambot/install/bumperbot_msgs:/home/om/slambot/install/rplidar_ros:/home/om/slambot/install/new_robot_firmware:/home/om/slambot/install/new_robot_description:/home/om/slambot/install/new_robot_controller:/home/om/slambot/install/new_practice_bringup:/home/om/slambot/install/bumperbot_cpp_examples:/home/om/slambot/install/bumperbot_localization:/home/om/slambot/install/bumperbot_firmware:/home/om/slambot/install/bumperbot_description:/home/om/slambot/install/bumperbot_controller:/home/om/slambot/install/bumperbot_bringup:/home/om/slambot/install/bumperbot_py_examples:/opt/ros/humble LD_LIBRARY_PATH=/home/om/slambot/install/bumperbot_msgs/lib:/home/om/slambot/install/rplidar_ros/lib:/home/om/slambot/install/bumperbot_firmware/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/om/slambot/build/bumperbot_cpp_examples
+[0.747s] -- Install configuration: ""
+[0.748s] -- Up-to-date: /home/om/slambot/install/bumperbot_cpp_examples/include/include
+[0.748s] -- Up-to-date: /home/om/slambot/install/bumperbot_cpp_examples/include/include/bumperbot_cpp_examples
+[0.748s] -- Up-to-date: /home/om/slambot/install/bumperbot_cpp_examples/include/include/bumperbot_cpp_examples/simple_turtlesim_kinematics.hpp
+[0.748s] -- Up-to-date: /home/om/slambot/install/bumperbot_cpp_examples/include/include/bumperbot_cpp_examples/simple_tf_kinematics.hpp
+[0.748s] -- Up-to-date: /home/om/slambot/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_publisher
+[0.749s] -- Up-to-date: /home/om/slambot/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_subscriber
+[0.749s] -- Up-to-date: /home/om/slambot/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_parameter
+[0.749s] -- Up-to-date: /home/om/slambot/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_turtlesim_kinematics
+[0.749s] -- Up-to-date: /home/om/slambot/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_service_server
+[0.749s] -- Up-to-date: /home/om/slambot/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_service_client
+[0.749s] -- Up-to-date: /home/om/slambot/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_tf_kinematics
+[0.749s] -- Up-to-date: /home/om/slambot/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_lifecycle_node
+[0.750s] -- Up-to-date: /home/om/slambot/install/bumperbot_cpp_examples/share/ament_index/resource_index/package_run_dependencies/bumperbot_cpp_examples
+[0.750s] -- Up-to-date: /home/om/slambot/install/bumperbot_cpp_examples/share/ament_index/resource_index/parent_prefix_path/bumperbot_cpp_examples
+[0.750s] -- Up-to-date: /home/om/slambot/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/environment/ament_prefix_path.sh
+[0.750s] -- Up-to-date: /home/om/slambot/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/environment/ament_prefix_path.dsv
+[0.750s] -- Up-to-date: /home/om/slambot/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/environment/path.sh
+[0.751s] -- Up-to-date: /home/om/slambot/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/environment/path.dsv
+[0.751s] -- Up-to-date: /home/om/slambot/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/local_setup.bash
+[0.751s] -- Up-to-date: /home/om/slambot/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/local_setup.sh
+[0.751s] -- Up-to-date: /home/om/slambot/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/local_setup.zsh
+[0.751s] -- Up-to-date: /home/om/slambot/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/local_setup.dsv
+[0.751s] -- Installing: /home/om/slambot/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/package.dsv
+[0.751s] -- Up-to-date: /home/om/slambot/install/bumperbot_cpp_examples/share/ament_index/resource_index/packages/bumperbot_cpp_examples
+[0.751s] -- Up-to-date: /home/om/slambot/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/cmake/bumperbot_cpp_examplesConfig.cmake
+[0.752s] -- Up-to-date: /home/om/slambot/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/cmake/bumperbot_cpp_examplesConfig-version.cmake
+[0.752s] -- Up-to-date: /home/om/slambot/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/package.xml
+[0.755s] Invoked command in '/home/om/slambot/build/bumperbot_cpp_examples' returned '0': CMAKE_PREFIX_PATH=/home/om/slambot/install/bumperbot_msgs:/home/om/slambot/install/rplidar_ros:/home/om/slambot/install/new_robot_firmware:/home/om/slambot/install/new_robot_description:/home/om/slambot/install/new_robot_controller:/home/om/slambot/install/new_practice_bringup:/home/om/slambot/install/bumperbot_cpp_examples:/home/om/slambot/install/bumperbot_localization:/home/om/slambot/install/bumperbot_firmware:/home/om/slambot/install/bumperbot_description:/home/om/slambot/install/bumperbot_controller:/home/om/slambot/install/bumperbot_bringup:/home/om/slambot/install/bumperbot_py_examples:/opt/ros/humble LD_LIBRARY_PATH=/home/om/slambot/install/bumperbot_msgs/lib:/home/om/slambot/install/rplidar_ros/lib:/home/om/slambot/install/bumperbot_firmware/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/om/slambot/build/bumperbot_cpp_examples

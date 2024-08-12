@@ -1,5 +1,19 @@
 <?xml version="1.0"?>
 <robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+    <transmission name="wheel_right_transmission">
+      <plugin>transmission_interface/SimpleTransmission</plugin>
+      <actuator name="wheel_right_motor" role="actuator_right"/>
+      <joint name="base_right_wheel_joint"    role="joint_right">
+        <mechanical_reduction>1.0</mechanical_reduction>
+      </joint>
+    </transmission>
+    <transmission name="wheel_left_transmission">
+      <plugin>transmission_interface/SimpleTransmission</plugin>
+      <actuator name="wheel_left_motor" role="actuator_left"/>
+      <joint name="base_left_wheel_joint"    role="joint_left">
+        <mechanical_reduction>1.0</mechanical_reduction>
+      </joint>
+    </transmission>
     <gazebo reference="base_link">
     <material>Gazebo/Blue</material>
     </gazebo>
@@ -19,7 +33,7 @@
     <plugin filename="libgazebo_ros2_control.so" name="gazebo_ros2_control">
       <robot_param>robot_description</robot_param>
       <robot_param_node>robot_state_publisher</robot_param_node>
-      <parameters>$(find bumperbot_controller)/config/bumperbot_controllers.yaml</parameters>
+      <parameters>$(find new_robot_controller)/config/new_robot_controllers.yaml</parameters>
     </plugin>
-  </gazebo>
+    </gazebo>
 </robot>

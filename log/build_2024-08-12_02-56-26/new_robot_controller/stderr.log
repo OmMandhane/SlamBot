@@ -1,0 +1,8 @@
+[01m[K/home/om/slambot/src/new_robot_controller/src/simple_controller.cpp:[m[K In member function ‘[01m[Kvoid SimpleController::jointCallBack(const JointState&)[m[K’:
+[01m[K/home/om/slambot/src/new_robot_controller/src/simple_controller.cpp:109:45:[m[K [01;31m[Kerror: [m[K‘[01m[Ktransform_stamped[m[K’ was not declared in this scope; did you mean ‘[01m[Ktransform_stamped_[m[K’?
+  109 |       transform_broadcaster_->sendTransform([01;31m[Ktransform_stamped[m[K);
+      |                                             [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+      |                                             [32m[Ktransform_stamped_[m[K
+gmake[2]: *** [CMakeFiles/simple_controller.dir/build.make:76: CMakeFiles/simple_controller.dir/src/simple_controller.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:140: CMakeFiles/simple_controller.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

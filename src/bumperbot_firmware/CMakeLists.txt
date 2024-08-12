@@ -5,7 +5,6 @@ if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES "Clang")
   add_compile_options(-Wall -Wextra -Wpedantic)
 endif()
 
-
 find_package(ament_cmake REQUIRED)
 find_package(ament_cmake_python REQUIRED)
 find_package(rclcpp REQUIRED)
@@ -14,20 +13,24 @@ find_package(std_msgs REQUIRED)
 find_package(hardware_interface REQUIRED)
 find_package(pluginlib REQUIRED)
 find_package(rclcpp_lifecycle REQUIRED)
-find_package(PkgConfig)
-pkg_check_modules(SERIAL libserial)
+find_package(PkgConfig REQUIRED)
+
+# Find libserial using pkg-config
+pkg_check_modules(SERIAL REQUIRED libserial)
 
 ament_python_install_package(${PROJECT_NAME})
 
+# Define the shared library
 add_library(${PROJECT_NAME} SHARED 
   src/bumperbot_interface.cpp
 )
 target_include_directories(${PROJECT_NAME} PRIVATE 
   include
-  "${SERIAL_INCLUDE_DIRS}"
+  ${SERIAL_INCLUDE_DIRS}
 )
 target_link_libraries(${PROJECT_NAME}
- "${SERIAL_LDFLAGS}")
+  ${SERIAL_LIBRARIES}
+)
 ament_target_dependencies(${PROJECT_NAME}
   hardware_interface
   pluginlib
@@ -37,20 +40,22 @@ ament_target_dependencies(${PROJECT_NAME}
 
 pluginlib_export_plugin_description_file(hardware_interface bumperbot_interface.xml)
 
+# Define the executables
 add_executable(simple_serial_receiver src/simple_serial_receiver.cpp)
 ament_target_dependencies(simple_serial_receiver rclcpp std_msgs)
 target_include_directories(simple_serial_receiver PUBLIC
- "${SERIAL_INCLUDE_DIRS}")
+  ${SERIAL_INCLUDE_DIRS})
 target_link_libraries(simple_serial_receiver
- "${SERIAL_LDFLAGS}")
+  ${SERIAL_LIBRARIES})
 
 add_executable(simple_serial_transmitter src/simple_serial_transmitter.cpp)
 ament_target_dependencies(simple_serial_transmitter rclcpp std_msgs)
 target_include_directories(simple_serial_transmitter PUBLIC
- "${SERIAL_INCLUDE_DIRS}")
+  ${SERIAL_INCLUDE_DIRS})
 target_link_libraries(simple_serial_transmitter
- "${SERIAL_LDFLAGS}")
+  ${SERIAL_LIBRARIES})
 
+# Install targets
 install(
   TARGETS ${PROJECT_NAME}
   DESTINATION lib

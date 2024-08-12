@@ -1,0 +1,9 @@
+/home/om/slambot/build/new_robot_firmware/CMakeFiles/uninstall.dir
+/home/om/slambot/build/new_robot_firmware/CMakeFiles/new_robot_firmware_uninstall.dir
+/home/om/slambot/build/new_robot_firmware/CMakeFiles/test.dir
+/home/om/slambot/build/new_robot_firmware/CMakeFiles/edit_cache.dir
+/home/om/slambot/build/new_robot_firmware/CMakeFiles/rebuild_cache.dir
+/home/om/slambot/build/new_robot_firmware/CMakeFiles/list_install_components.dir
+/home/om/slambot/build/new_robot_firmware/CMakeFiles/install.dir
+/home/om/slambot/build/new_robot_firmware/CMakeFiles/install/local.dir
+/home/om/slambot/build/new_robot_firmware/CMakeFiles/install/strip.dir

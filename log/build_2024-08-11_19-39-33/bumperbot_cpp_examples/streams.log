@@ -1,0 +1,10 @@
+[0.017s] Invoking command in '/home/om/slambot/build/bumperbot_cpp_examples': AMENT_PREFIX_PATH=/home/om/slambot/install/bumperbot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/om/slambot/install/bumperbot_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/om/slambot/install/bumperbot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/om/slambot/install/bumperbot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/om/slambot/build/bumperbot_cpp_examples -- -j8 -l8
+[0.108s] [ 12%] Built target simple_parameter
+[0.109s] [ 37%] Built target simple_tf_kinematics
+[0.110s] [ 37%] Built target simple_service_server
+[0.111s] [ 50%] Built target simple_subscriber
+[0.117s] [ 62%] Built target simple_lifecycle_node
+[0.119s] [ 81%] Built target simple_service_client
+[0.119s] [ 87%] Built target simple_turtlesim_kinematics
+[0.119s] [100%] Built target simple_publisher
+[0.367s] Invoked command in '/home/om/slambot/build/bumperbot_cpp_examples' returned '0': AMENT_PREFIX_PATH=/home/om/slambot/install/bumperbot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/om/slambot/install/bumperbot_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/om/slambot/install/bumperbot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/om/slambot/install/bumperbot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/om/slambot/build/bumperbot_cpp_examples -- -j8 -l8

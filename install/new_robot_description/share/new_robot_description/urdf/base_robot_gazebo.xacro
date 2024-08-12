@@ -1,5 +1,19 @@
 <?xml version="1.0"?>
 <robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+    <transmission name="wheel_right_transmission">
+      <plugin>transmission_interface/SimpleTransmission</plugin>
+      <actuator name="wheel_right_motor" role="actuator_right"/>
+      <joint name="base_right_wheel_joint"    role="joint_right">
+        <mechanical_reduction>1.0</mechanical_reduction>
+      </joint>
+    </transmission>
+    <transmission name="wheel_left_transmission">
+      <plugin>transmission_interface/SimpleTransmission</plugin>
+      <actuator name="wheel_left_motor" role="actuator_left"/>
+      <joint name="base_left_wheel_joint"    role="joint_left">
+        <mechanical_reduction>1.0</mechanical_reduction>
+      </joint>
+    </transmission>
     <gazebo reference="base_link">
     <material>Gazebo/Blue</material>
     </gazebo>
@@ -15,24 +29,11 @@
         <mu1 value="0.1" />
         <mu2 value="0.1" />
     </gazebo>
-
     <gazebo>
-        <plugin name="diff_drive_controller" filename="libgazebo_ros_diff_drive.so">
-            <!-- Update rate in Hz -->
-            <update_rate>50</update_rate>
-            <!-- wheels -->
-            <left_joint>base_left_wheel_joint</left_joint>
-            <right_joint>base_right_wheel_joint</right_joint>
-            <!-- kinematics -->
-            <wheel_separation>0.45</wheel_separation>
-            <wheel_diameter>0.2</wheel_diameter>
-            <!-- output -->
-            <publish_odom>true</publish_odom>
-            <publish_odom_tf>true</publish_odom_tf>
-            <publish_wheel_tf>true</publish_wheel_tf>
-            <odometry_topic>odom</odometry_topic>
-            <odometry_frame>odom</odometry_frame>
-            <robot_base_frame>base_footprint</robot_base_frame>
-        </plugin>
+    <plugin filename="libgazebo_ros2_control.so" name="gazebo_ros2_control">
+      <robot_param>robot_description</robot_param>
+      <robot_param_node>robot_state_publisher</robot_param_node>
+      <parameters>$(find new_robot_controller)/config/new_robot_controllers.yaml</parameters>
+    </plugin>
     </gazebo>
 </robot>
