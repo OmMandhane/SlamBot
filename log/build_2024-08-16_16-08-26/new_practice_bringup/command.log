@@ -1,0 +1,4 @@
+Invoking command in '/home/om/slambot/build/new_practice_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/om/slambot/build/new_practice_bringup -- -j8 -l8
+Invoked command in '/home/om/slambot/build/new_practice_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/om/slambot/build/new_practice_bringup -- -j8 -l8
+Invoking command in '/home/om/slambot/build/new_practice_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/om/slambot/build/new_practice_bringup
+Invoked command in '/home/om/slambot/build/new_practice_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/om/slambot/build/new_practice_bringup

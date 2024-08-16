@@ -1,0 +1,170 @@
+[0.056s] Invoking command in '/home/om/slambot/build/bumperbot_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/om/slambot/build/bumperbot_msgs -- -j8 -l8
+[0.180s] [ 10%] Built target bumperbot_msgs__rosidl_generator_c
+[0.181s] [ 12%] Built target bumperbot_msgs__cpp
+[0.240s] [ 12%] Built target ament_cmake_python_copy_bumperbot_msgs
+[0.265s] [ 23%] Built target bumperbot_msgs__rosidl_typesupport_c
+[0.266s] [ 33%] Built target bumperbot_msgs__rosidl_typesupport_cpp
+[0.266s] [ 43%] Built target bumperbot_msgs__rosidl_typesupport_introspection_c
+[0.276s] [ 64%] Built target bumperbot_msgs__rosidl_typesupport_fastrtps_c
+[0.276s] [ 64%] Built target bumperbot_msgs__rosidl_typesupport_introspection_cpp
+[0.286s] [ 74%] Built target bumperbot_msgs__rosidl_typesupport_fastrtps_cpp
+[0.326s] [ 74%] Built target bumperbot_msgs
+[0.368s] [ 76%] Built target bumperbot_msgs__py
+[0.408s] [ 84%] Built target bumperbot_msgs__rosidl_generator_py
+[0.442s] [ 89%] Built target bumperbot_msgs__rosidl_typesupport_fastrtps_c__pyext
+[0.449s] [ 94%] Built target bumperbot_msgs__rosidl_typesupport_introspection_c__pyext
+[0.452s] [100%] Built target bumperbot_msgs__rosidl_typesupport_c__pyext
+[0.610s] running egg_info
+[0.611s] writing bumperbot_msgs.egg-info/PKG-INFO
+[0.611s] writing dependency_links to bumperbot_msgs.egg-info/dependency_links.txt
+[0.611s] writing top-level names to bumperbot_msgs.egg-info/top_level.txt
+[0.617s] reading manifest file 'bumperbot_msgs.egg-info/SOURCES.txt'
+[0.617s] writing manifest file 'bumperbot_msgs.egg-info/SOURCES.txt'
+[0.715s] [100%] Built target ament_cmake_python_build_bumperbot_msgs_egg
+[0.752s] Invoked command in '/home/om/slambot/build/bumperbot_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/om/slambot/build/bumperbot_msgs -- -j8 -l8
+[0.890s] Invoking command in '/home/om/slambot/build/bumperbot_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/om/slambot/build/bumperbot_msgs
+[0.903s] -- Install configuration: ""
+[0.904s] -- Up-to-date: /home/om/slambot/install/bumperbot_msgs/share/ament_index/resource_index/rosidl_interfaces/bumperbot_msgs
+[0.904s] -- Up-to-date: /home/om/slambot/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs
+[0.904s] -- Up-to-date: /home/om/slambot/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/msg
+[0.905s] -- Up-to-date: /home/om/slambot/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/msg/rosidl_generator_c__visibility_control.h
+[0.905s] -- Up-to-date: /home/om/slambot/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv
+[0.906s] -- Up-to-date: /home/om/slambot/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/add_two_ints.h
+[0.906s] -- Up-to-date: /home/om/slambot/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/get_transform.h
+[0.907s] -- Up-to-date: /home/om/slambot/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail
+[0.907s] -- Up-to-date: /home/om/slambot/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/add_two_ints__functions.h
+[0.908s] -- Up-to-date: /home/om/slambot/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/add_two_ints__struct.h
+[0.908s] -- Up-to-date: /home/om/slambot/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/get_transform__functions.h
+[0.908s] -- Up-to-date: /home/om/slambot/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/get_transform__type_support.h
+[0.908s] -- Up-to-date: /home/om/slambot/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/get_transform__functions.c
+[0.908s] -- Up-to-date: /home/om/slambot/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/get_transform__struct.h
+[0.908s] -- Up-to-date: /home/om/slambot/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/add_two_ints__type_support.h
+[0.908s] -- Up-to-date: /home/om/slambot/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/add_two_ints__functions.c
+[0.908s] -- Up-to-date: /home/om/slambot/install/bumperbot_msgs/share/bumperbot_msgs/environment/library_path.sh
+[0.908s] -- Installing: /home/om/slambot/install/bumperbot_msgs/share/bumperbot_msgs/environment/library_path.dsv
+[0.908s] -- Up-to-date: /home/om/slambot/install/bumperbot_msgs/lib/libbumperbot_msgs__rosidl_generator_c.so
+[0.909s] -- Up-to-date: /home/om/slambot/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs
+[0.910s] -- Up-to-date: /home/om/slambot/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/msg
+[0.910s] -- Up-to-date: /home/om/slambot/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[0.910s] -- Up-to-date: /home/om/slambot/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv
+[0.910s] -- Up-to-date: /home/om/slambot/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail
+[0.911s] -- Up-to-date: /home/om/slambot/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/get_transform__rosidl_typesupport_fastrtps_c.h
+[0.911s] -- Up-to-date: /home/om/slambot/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/add_two_ints__rosidl_typesupport_fastrtps_c.h
+[0.912s] -- Up-to-date: /home/om/slambot/install/bumperbot_msgs/lib/libbumperbot_msgs__rosidl_typesupport_fastrtps_c.so
+[0.912s] -- Up-to-date: /home/om/slambot/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs
+[0.912s] -- Up-to-date: /home/om/slambot/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv
+[0.912s] -- Up-to-date: /home/om/slambot/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail
+[0.912s] -- Up-to-date: /home/om/slambot/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/add_two_ints__builder.hpp
+[0.912s] -- Up-to-date: /home/om/slambot/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/get_transform__struct.hpp
+[0.912s] -- Up-to-date: /home/om/slambot/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/get_transform__builder.hpp
+[0.912s] -- Up-to-date: /home/om/slambot/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/get_transform__traits.hpp
+[0.912s] -- Up-to-date: /home/om/slambot/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/add_two_ints__struct.hpp
+[0.912s] -- Up-to-date: /home/om/slambot/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/add_two_ints__traits.hpp
+[0.913s] -- Up-to-date: /home/om/slambot/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/get_transform.hpp
+[0.913s] -- Up-to-date: /home/om/slambot/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/add_two_ints.hpp
+[0.913s] -- Up-to-date: /home/om/slambot/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs
+[0.913s] -- Up-to-date: /home/om/slambot/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/msg
+[0.914s] -- Up-to-date: /home/om/slambot/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[0.915s] -- Up-to-date: /home/om/slambot/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv
+[0.915s] -- Up-to-date: /home/om/slambot/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail
+[0.915s] -- Up-to-date: /home/om/slambot/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/add_two_ints__rosidl_typesupport_fastrtps_cpp.hpp
+[0.915s] -- Up-to-date: /home/om/slambot/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/dds_fastrtps
+[0.915s] -- Up-to-date: /home/om/slambot/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/get_transform__rosidl_typesupport_fastrtps_cpp.hpp
+[0.915s] -- Up-to-date: /home/om/slambot/install/bumperbot_msgs/lib/libbumperbot_msgs__rosidl_typesupport_fastrtps_cpp.so
+[0.916s] -- Up-to-date: /home/om/slambot/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs
+[0.916s] -- Up-to-date: /home/om/slambot/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/msg
+[0.916s] -- Up-to-date: /home/om/slambot/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[0.916s] -- Up-to-date: /home/om/slambot/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv
+[0.916s] -- Up-to-date: /home/om/slambot/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail
+[0.916s] -- Up-to-date: /home/om/slambot/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/add_two_ints__type_support.c
+[0.916s] -- Up-to-date: /home/om/slambot/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/get_transform__type_support.c
+[0.916s] -- Up-to-date: /home/om/slambot/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/add_two_ints__rosidl_typesupport_introspection_c.h
+[0.916s] -- Up-to-date: /home/om/slambot/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/get_transform__rosidl_typesupport_introspection_c.h
+[0.916s] -- Up-to-date: /home/om/slambot/install/bumperbot_msgs/lib/libbumperbot_msgs__rosidl_typesupport_introspection_c.so
+[0.917s] -- Up-to-date: /home/om/slambot/install/bumperbot_msgs/lib/libbumperbot_msgs__rosidl_typesupport_c.so
+[0.917s] -- Up-to-date: /home/om/slambot/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs
+[0.917s] -- Up-to-date: /home/om/slambot/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv
+[0.917s] -- Up-to-date: /home/om/slambot/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail
+[0.917s] -- Up-to-date: /home/om/slambot/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/get_transform__rosidl_typesupport_introspection_cpp.hpp
+[0.917s] -- Up-to-date: /home/om/slambot/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/add_two_ints__rosidl_typesupport_introspection_cpp.hpp
+[0.918s] -- Up-to-date: /home/om/slambot/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/add_two_ints__type_support.cpp
+[0.918s] -- Up-to-date: /home/om/slambot/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/get_transform__type_support.cpp
+[0.918s] -- Up-to-date: /home/om/slambot/install/bumperbot_msgs/lib/libbumperbot_msgs__rosidl_typesupport_introspection_cpp.so
+[0.918s] -- Up-to-date: /home/om/slambot/install/bumperbot_msgs/lib/libbumperbot_msgs__rosidl_typesupport_cpp.so
+[0.918s] -- Up-to-date: /home/om/slambot/install/bumperbot_msgs/share/bumperbot_msgs/environment/pythonpath.sh
+[0.918s] -- Installing: /home/om/slambot/install/bumperbot_msgs/share/bumperbot_msgs/environment/pythonpath.dsv
+[0.918s] -- Up-to-date: /home/om/slambot/install/bumperbot_msgs/local/lib/python3.10/dist-packages/bumperbot_msgs-0.0.0-py3.10.egg-info
+[0.918s] -- Installing: /home/om/slambot/install/bumperbot_msgs/local/lib/python3.10/dist-packages/bumperbot_msgs-0.0.0-py3.10.egg-info/PKG-INFO
+[0.918s] -- Installing: /home/om/slambot/install/bumperbot_msgs/local/lib/python3.10/dist-packages/bumperbot_msgs-0.0.0-py3.10.egg-info/dependency_links.txt
+[0.918s] -- Installing: /home/om/slambot/install/bumperbot_msgs/local/lib/python3.10/dist-packages/bumperbot_msgs-0.0.0-py3.10.egg-info/SOURCES.txt
+[0.918s] -- Installing: /home/om/slambot/install/bumperbot_msgs/local/lib/python3.10/dist-packages/bumperbot_msgs-0.0.0-py3.10.egg-info/top_level.txt
+[0.918s] -- Up-to-date: /home/om/slambot/install/bumperbot_msgs/local/lib/python3.10/dist-packages/bumperbot_msgs
+[0.919s] -- Up-to-date: /home/om/slambot/install/bumperbot_msgs/local/lib/python3.10/dist-packages/bumperbot_msgs/_bumperbot_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[0.919s] -- Up-to-date: /home/om/slambot/install/bumperbot_msgs/local/lib/python3.10/dist-packages/bumperbot_msgs/_bumperbot_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[0.919s] -- Installing: /home/om/slambot/install/bumperbot_msgs/local/lib/python3.10/dist-packages/bumperbot_msgs/__init__.py
+[0.919s] -- Up-to-date: /home/om/slambot/install/bumperbot_msgs/local/lib/python3.10/dist-packages/bumperbot_msgs/_bumperbot_msgs_s.ep.rosidl_typesupport_c.c
+[0.919s] -- Up-to-date: /home/om/slambot/install/bumperbot_msgs/local/lib/python3.10/dist-packages/bumperbot_msgs/srv
+[0.919s] -- Up-to-date: /home/om/slambot/install/bumperbot_msgs/local/lib/python3.10/dist-packages/bumperbot_msgs/srv/_get_transform_s.c
+[0.919s] -- Up-to-date: /home/om/slambot/install/bumperbot_msgs/local/lib/python3.10/dist-packages/bumperbot_msgs/srv/_get_transform.py
+[0.919s] -- Up-to-date: /home/om/slambot/install/bumperbot_msgs/local/lib/python3.10/dist-packages/bumperbot_msgs/srv/__init__.py
+[0.919s] -- Up-to-date: /home/om/slambot/install/bumperbot_msgs/local/lib/python3.10/dist-packages/bumperbot_msgs/srv/_add_two_ints.py
+[0.919s] -- Up-to-date: /home/om/slambot/install/bumperbot_msgs/local/lib/python3.10/dist-packages/bumperbot_msgs/srv/_add_two_ints_s.c
+[0.920s] -- Up-to-date: /home/om/slambot/install/bumperbot_msgs/local/lib/python3.10/dist-packages/bumperbot_msgs/libbumperbot_msgs__rosidl_generator_py.so
+[0.920s] -- Up-to-date: /home/om/slambot/install/bumperbot_msgs/local/lib/python3.10/dist-packages/bumperbot_msgs/bumperbot_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.920s] -- Up-to-date: /home/om/slambot/install/bumperbot_msgs/local/lib/python3.10/dist-packages/bumperbot_msgs/bumperbot_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.920s] -- Up-to-date: /home/om/slambot/install/bumperbot_msgs/local/lib/python3.10/dist-packages/bumperbot_msgs/bumperbot_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.962s] Listing '/home/om/slambot/install/bumperbot_msgs/local/lib/python3.10/dist-packages/bumperbot_msgs'...
+[0.963s] Compiling '/home/om/slambot/install/bumperbot_msgs/local/lib/python3.10/dist-packages/bumperbot_msgs/__init__.py'...
+[0.963s] Listing '/home/om/slambot/install/bumperbot_msgs/local/lib/python3.10/dist-packages/bumperbot_msgs/srv'...
+[0.971s] -- Up-to-date: /home/om/slambot/install/bumperbot_msgs/local/lib/python3.10/dist-packages/bumperbot_msgs/bumperbot_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.975s] -- Up-to-date: /home/om/slambot/install/bumperbot_msgs/local/lib/python3.10/dist-packages/bumperbot_msgs/bumperbot_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.976s] -- Up-to-date: /home/om/slambot/install/bumperbot_msgs/local/lib/python3.10/dist-packages/bumperbot_msgs/bumperbot_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.976s] -- Up-to-date: /home/om/slambot/install/bumperbot_msgs/lib/libbumperbot_msgs__rosidl_generator_py.so
+[0.976s] -- Up-to-date: /home/om/slambot/install/bumperbot_msgs/share/bumperbot_msgs/srv/AddTwoInts.idl
+[0.976s] -- Up-to-date: /home/om/slambot/install/bumperbot_msgs/share/bumperbot_msgs/srv/GetTransform.idl
+[0.976s] -- Up-to-date: /home/om/slambot/install/bumperbot_msgs/share/bumperbot_msgs/srv/AddTwoInts.srv
+[0.976s] -- Up-to-date: /home/om/slambot/install/bumperbot_msgs/share/bumperbot_msgs/srv/AddTwoInts_Request.msg
+[0.977s] -- Up-to-date: /home/om/slambot/install/bumperbot_msgs/share/bumperbot_msgs/srv/AddTwoInts_Response.msg
+[0.977s] -- Up-to-date: /home/om/slambot/install/bumperbot_msgs/share/bumperbot_msgs/srv/GetTransform.srv
+[0.977s] -- Up-to-date: /home/om/slambot/install/bumperbot_msgs/share/bumperbot_msgs/srv/GetTransform_Request.msg
+[0.977s] -- Up-to-date: /home/om/slambot/install/bumperbot_msgs/share/bumperbot_msgs/srv/GetTransform_Response.msg
+[0.977s] -- Up-to-date: /home/om/slambot/install/bumperbot_msgs/share/ament_index/resource_index/package_run_dependencies/bumperbot_msgs
+[0.977s] -- Installing: /home/om/slambot/install/bumperbot_msgs/share/ament_index/resource_index/parent_prefix_path/bumperbot_msgs
+[0.977s] -- Installing: /home/om/slambot/install/bumperbot_msgs/share/bumperbot_msgs/environment/ament_prefix_path.sh
+[0.977s] -- Installing: /home/om/slambot/install/bumperbot_msgs/share/bumperbot_msgs/environment/ament_prefix_path.dsv
+[0.977s] -- Installing: /home/om/slambot/install/bumperbot_msgs/share/bumperbot_msgs/environment/path.sh
+[0.977s] -- Installing: /home/om/slambot/install/bumperbot_msgs/share/bumperbot_msgs/environment/path.dsv
+[0.977s] -- Up-to-date: /home/om/slambot/install/bumperbot_msgs/share/bumperbot_msgs/local_setup.bash
+[0.977s] -- Up-to-date: /home/om/slambot/install/bumperbot_msgs/share/bumperbot_msgs/local_setup.sh
+[0.977s] -- Up-to-date: /home/om/slambot/install/bumperbot_msgs/share/bumperbot_msgs/local_setup.zsh
+[0.977s] -- Installing: /home/om/slambot/install/bumperbot_msgs/share/bumperbot_msgs/local_setup.dsv
+[0.977s] -- Installing: /home/om/slambot/install/bumperbot_msgs/share/bumperbot_msgs/package.dsv
+[0.978s] -- Up-to-date: /home/om/slambot/install/bumperbot_msgs/share/ament_index/resource_index/packages/bumperbot_msgs
+[0.979s] -- Up-to-date: /home/om/slambot/install/bumperbot_msgs/share/bumperbot_msgs/cmake/export_bumperbot_msgs__rosidl_generator_cExport.cmake
+[0.979s] -- Up-to-date: /home/om/slambot/install/bumperbot_msgs/share/bumperbot_msgs/cmake/export_bumperbot_msgs__rosidl_generator_cExport-noconfig.cmake
+[0.980s] -- Up-to-date: /home/om/slambot/install/bumperbot_msgs/share/bumperbot_msgs/cmake/export_bumperbot_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[0.980s] -- Up-to-date: /home/om/slambot/install/bumperbot_msgs/share/bumperbot_msgs/cmake/export_bumperbot_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[0.980s] -- Up-to-date: /home/om/slambot/install/bumperbot_msgs/share/bumperbot_msgs/cmake/export_bumperbot_msgs__rosidl_generator_cppExport.cmake
+[0.980s] -- Up-to-date: /home/om/slambot/install/bumperbot_msgs/share/bumperbot_msgs/cmake/export_bumperbot_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[0.980s] -- Up-to-date: /home/om/slambot/install/bumperbot_msgs/share/bumperbot_msgs/cmake/export_bumperbot_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[0.982s] -- Up-to-date: /home/om/slambot/install/bumperbot_msgs/share/bumperbot_msgs/cmake/bumperbot_msgs__rosidl_typesupport_introspection_cExport.cmake
+[0.982s] -- Up-to-date: /home/om/slambot/install/bumperbot_msgs/share/bumperbot_msgs/cmake/bumperbot_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[0.983s] -- Up-to-date: /home/om/slambot/install/bumperbot_msgs/share/bumperbot_msgs/cmake/bumperbot_msgs__rosidl_typesupport_cExport.cmake
+[0.984s] -- Up-to-date: /home/om/slambot/install/bumperbot_msgs/share/bumperbot_msgs/cmake/bumperbot_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[0.984s] -- Up-to-date: /home/om/slambot/install/bumperbot_msgs/share/bumperbot_msgs/cmake/bumperbot_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[0.984s] -- Up-to-date: /home/om/slambot/install/bumperbot_msgs/share/bumperbot_msgs/cmake/bumperbot_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[0.984s] -- Up-to-date: /home/om/slambot/install/bumperbot_msgs/share/bumperbot_msgs/cmake/bumperbot_msgs__rosidl_typesupport_cppExport.cmake
+[0.984s] -- Up-to-date: /home/om/slambot/install/bumperbot_msgs/share/bumperbot_msgs/cmake/bumperbot_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[0.984s] -- Up-to-date: /home/om/slambot/install/bumperbot_msgs/share/bumperbot_msgs/cmake/export_bumperbot_msgs__rosidl_generator_pyExport.cmake
+[0.985s] -- Up-to-date: /home/om/slambot/install/bumperbot_msgs/share/bumperbot_msgs/cmake/export_bumperbot_msgs__rosidl_generator_pyExport-noconfig.cmake
+[0.985s] -- Up-to-date: /home/om/slambot/install/bumperbot_msgs/share/bumperbot_msgs/cmake/rosidl_cmake-extras.cmake
+[0.985s] -- Up-to-date: /home/om/slambot/install/bumperbot_msgs/share/bumperbot_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.985s] -- Up-to-date: /home/om/slambot/install/bumperbot_msgs/share/bumperbot_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.985s] -- Up-to-date: /home/om/slambot/install/bumperbot_msgs/share/bumperbot_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[0.985s] -- Up-to-date: /home/om/slambot/install/bumperbot_msgs/share/bumperbot_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[0.985s] -- Up-to-date: /home/om/slambot/install/bumperbot_msgs/share/bumperbot_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[0.985s] -- Up-to-date: /home/om/slambot/install/bumperbot_msgs/share/bumperbot_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[0.985s] -- Up-to-date: /home/om/slambot/install/bumperbot_msgs/share/bumperbot_msgs/cmake/bumperbot_msgsConfig.cmake
+[0.986s] -- Up-to-date: /home/om/slambot/install/bumperbot_msgs/share/bumperbot_msgs/cmake/bumperbot_msgsConfig-version.cmake
+[0.986s] -- Up-to-date: /home/om/slambot/install/bumperbot_msgs/share/bumperbot_msgs/package.xml
+[1.001s] Invoked command in '/home/om/slambot/build/bumperbot_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/om/slambot/build/bumperbot_msgs

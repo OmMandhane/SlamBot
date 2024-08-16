@@ -63,7 +63,7 @@ CMAKE_BINARY_DIR = /home/om/slambot/build/new_robot_firmware
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all:
+all: CMakeFiles/new_robot_firmware.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -73,6 +73,7 @@ preinstall:
 # The main recursive "clean" target.
 clean: CMakeFiles/uninstall.dir/clean
 clean: CMakeFiles/new_robot_firmware_uninstall.dir/clean
+clean: CMakeFiles/new_robot_firmware.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -126,6 +127,32 @@ new_robot_firmware_uninstall: CMakeFiles/new_robot_firmware_uninstall.dir/rule
 CMakeFiles/new_robot_firmware_uninstall.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/new_robot_firmware_uninstall.dir/build.make CMakeFiles/new_robot_firmware_uninstall.dir/clean
 .PHONY : CMakeFiles/new_robot_firmware_uninstall.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/new_robot_firmware.dir
+
+# All Build rule for target.
+CMakeFiles/new_robot_firmware.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/new_robot_firmware.dir/build.make CMakeFiles/new_robot_firmware.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/new_robot_firmware.dir/build.make CMakeFiles/new_robot_firmware.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/om/slambot/build/new_robot_firmware/CMakeFiles --progress-num=1,2 "Built target new_robot_firmware"
+.PHONY : CMakeFiles/new_robot_firmware.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/new_robot_firmware.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/om/slambot/build/new_robot_firmware/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/new_robot_firmware.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/om/slambot/build/new_robot_firmware/CMakeFiles 0
+.PHONY : CMakeFiles/new_robot_firmware.dir/rule
+
+# Convenience name for target.
+new_robot_firmware: CMakeFiles/new_robot_firmware.dir/rule
+.PHONY : new_robot_firmware
+
+# clean rule for target.
+CMakeFiles/new_robot_firmware.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/new_robot_firmware.dir/build.make CMakeFiles/new_robot_firmware.dir/clean
+.PHONY : CMakeFiles/new_robot_firmware.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

@@ -1,0 +1,78 @@
+[0.050s] Invoking command in '/home/om/slambot/build/bumperbot_firmware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/om/slambot/build/bumperbot_firmware -- -j8 -l8
+[0.088s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.332s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.388s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.392s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.407s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.427s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.450s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.514s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.516s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.672s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.760s] -- Found rclpy: 3.3.14 (/opt/ros/humble/share/rclpy/cmake)
+[0.764s] -- Found hardware_interface: 2.42.0 (/opt/ros/humble/share/hardware_interface/cmake)
+[1.364s] -- Configuring done
+[1.442s] -- Generating done
+[1.445s] -- Build files have been written to: /home/om/slambot/build/bumperbot_firmware
+[1.489s] [35m[1mConsolidate compiler generated dependencies of target bumperbot_firmware[0m
+[1.491s] [35m[1mConsolidate compiler generated dependencies of target simple_serial_receiver[0m
+[1.498s] [35m[1mConsolidate compiler generated dependencies of target simple_serial_transmitter[0m
+[1.517s] [ 33%] Built target simple_serial_receiver
+[1.525s] [ 66%] Built target bumperbot_firmware
+[1.531s] [100%] Built target simple_serial_transmitter
+[1.536s] [100%] Built target ament_cmake_python_copy_bumperbot_firmware
+[1.877s] running egg_info
+[1.877s] writing bumperbot_firmware.egg-info/PKG-INFO
+[1.877s] writing dependency_links to bumperbot_firmware.egg-info/dependency_links.txt
+[1.877s] writing top-level names to bumperbot_firmware.egg-info/top_level.txt
+[1.882s] reading manifest file 'bumperbot_firmware.egg-info/SOURCES.txt'
+[1.883s] writing manifest file 'bumperbot_firmware.egg-info/SOURCES.txt'
+[1.968s] [100%] Built target ament_cmake_python_build_bumperbot_firmware_egg
+[1.997s] Invoked command in '/home/om/slambot/build/bumperbot_firmware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/om/slambot/build/bumperbot_firmware -- -j8 -l8
+[2.042s] Invoking command in '/home/om/slambot/build/bumperbot_firmware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/om/slambot/build/bumperbot_firmware
+[2.054s] -- Install configuration: ""
+[2.054s] -- Up-to-date: /home/om/slambot/install/bumperbot_firmware/share/bumperbot_firmware/environment/pythonpath.sh
+[2.054s] -- Installing: /home/om/slambot/install/bumperbot_firmware/share/bumperbot_firmware/environment/pythonpath.dsv
+[2.054s] -- Up-to-date: /home/om/slambot/install/bumperbot_firmware/local/lib/python3.10/dist-packages/bumperbot_firmware-0.0.0-py3.10.egg-info
+[2.054s] -- Installing: /home/om/slambot/install/bumperbot_firmware/local/lib/python3.10/dist-packages/bumperbot_firmware-0.0.0-py3.10.egg-info/PKG-INFO
+[2.054s] -- Installing: /home/om/slambot/install/bumperbot_firmware/local/lib/python3.10/dist-packages/bumperbot_firmware-0.0.0-py3.10.egg-info/dependency_links.txt
+[2.054s] -- Installing: /home/om/slambot/install/bumperbot_firmware/local/lib/python3.10/dist-packages/bumperbot_firmware-0.0.0-py3.10.egg-info/SOURCES.txt
+[2.054s] -- Installing: /home/om/slambot/install/bumperbot_firmware/local/lib/python3.10/dist-packages/bumperbot_firmware-0.0.0-py3.10.egg-info/top_level.txt
+[2.054s] -- Up-to-date: /home/om/slambot/install/bumperbot_firmware/local/lib/python3.10/dist-packages/bumperbot_firmware
+[2.054s] -- Up-to-date: /home/om/slambot/install/bumperbot_firmware/local/lib/python3.10/dist-packages/bumperbot_firmware/__init__.py
+[2.054s] -- Up-to-date: /home/om/slambot/install/bumperbot_firmware/local/lib/python3.10/dist-packages/bumperbot_firmware/simple_serial_receiver.py
+[2.055s] -- Up-to-date: /home/om/slambot/install/bumperbot_firmware/local/lib/python3.10/dist-packages/bumperbot_firmware/simple_serial_transmitter.py
+[2.092s] Listing '/home/om/slambot/install/bumperbot_firmware/local/lib/python3.10/dist-packages/bumperbot_firmware'...
+[2.099s] -- Up-to-date: /home/om/slambot/install/bumperbot_firmware/share/bumperbot_firmware/bumperbot_interface.xml
+[2.100s] -- Up-to-date: /home/om/slambot/install/bumperbot_firmware/lib/libbumperbot_firmware.so
+[2.100s] -- Up-to-date: /home/om/slambot/install/bumperbot_firmware/include/include
+[2.100s] -- Up-to-date: /home/om/slambot/install/bumperbot_firmware/include/include/bumperbot_firmware
+[2.100s] -- Up-to-date: /home/om/slambot/install/bumperbot_firmware/include/include/bumperbot_firmware/bumperbot_interface.hpp
+[2.100s] -- Up-to-date: /home/om/slambot/install/bumperbot_firmware/share/bumperbot_firmware/launch
+[2.100s] -- Up-to-date: /home/om/slambot/install/bumperbot_firmware/share/bumperbot_firmware/launch/hardware_interface.launch.py
+[2.101s] -- Up-to-date: /home/om/slambot/install/bumperbot_firmware/lib/bumperbot_firmware/simple_serial_transmitter.py
+[2.101s] -- Up-to-date: /home/om/slambot/install/bumperbot_firmware/lib/bumperbot_firmware/simple_serial_receiver.py
+[2.101s] -- Up-to-date: /home/om/slambot/install/bumperbot_firmware/lib/bumperbot_firmware/simple_serial_receiver
+[2.102s] -- Up-to-date: /home/om/slambot/install/bumperbot_firmware/lib/bumperbot_firmware/simple_serial_transmitter
+[2.102s] -- Up-to-date: /home/om/slambot/install/bumperbot_firmware/share/bumperbot_firmware/environment/library_path.sh
+[2.102s] -- Installing: /home/om/slambot/install/bumperbot_firmware/share/bumperbot_firmware/environment/library_path.dsv
+[2.102s] -- Up-to-date: /home/om/slambot/install/bumperbot_firmware/share/ament_index/resource_index/package_run_dependencies/bumperbot_firmware
+[2.102s] -- Installing: /home/om/slambot/install/bumperbot_firmware/share/ament_index/resource_index/parent_prefix_path/bumperbot_firmware
+[2.102s] -- Installing: /home/om/slambot/install/bumperbot_firmware/share/bumperbot_firmware/environment/ament_prefix_path.sh
+[2.102s] -- Installing: /home/om/slambot/install/bumperbot_firmware/share/bumperbot_firmware/environment/ament_prefix_path.dsv
+[2.103s] -- Installing: /home/om/slambot/install/bumperbot_firmware/share/bumperbot_firmware/environment/path.sh
+[2.103s] -- Installing: /home/om/slambot/install/bumperbot_firmware/share/bumperbot_firmware/environment/path.dsv
+[2.103s] -- Up-to-date: /home/om/slambot/install/bumperbot_firmware/share/bumperbot_firmware/local_setup.bash
+[2.103s] -- Up-to-date: /home/om/slambot/install/bumperbot_firmware/share/bumperbot_firmware/local_setup.sh
+[2.103s] -- Up-to-date: /home/om/slambot/install/bumperbot_firmware/share/bumperbot_firmware/local_setup.zsh
+[2.103s] -- Installing: /home/om/slambot/install/bumperbot_firmware/share/bumperbot_firmware/local_setup.dsv
+[2.103s] -- Installing: /home/om/slambot/install/bumperbot_firmware/share/bumperbot_firmware/package.dsv
+[2.103s] -- Up-to-date: /home/om/slambot/install/bumperbot_firmware/share/ament_index/resource_index/packages/bumperbot_firmware
+[2.104s] -- Up-to-date: /home/om/slambot/install/bumperbot_firmware/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/bumperbot_firmware
+[2.104s] -- Up-to-date: /home/om/slambot/install/bumperbot_firmware/share/bumperbot_firmware/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.104s] -- Up-to-date: /home/om/slambot/install/bumperbot_firmware/share/bumperbot_firmware/cmake/ament_cmake_export_libraries-extras.cmake
+[2.104s] -- Up-to-date: /home/om/slambot/install/bumperbot_firmware/share/bumperbot_firmware/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.104s] -- Up-to-date: /home/om/slambot/install/bumperbot_firmware/share/bumperbot_firmware/cmake/bumperbot_firmwareConfig.cmake
+[2.104s] -- Up-to-date: /home/om/slambot/install/bumperbot_firmware/share/bumperbot_firmware/cmake/bumperbot_firmwareConfig-version.cmake
+[2.104s] -- Up-to-date: /home/om/slambot/install/bumperbot_firmware/share/bumperbot_firmware/package.xml
+[2.107s] Invoked command in '/home/om/slambot/build/bumperbot_firmware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/om/slambot/build/bumperbot_firmware

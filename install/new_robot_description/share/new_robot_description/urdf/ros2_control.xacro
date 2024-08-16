@@ -13,7 +13,7 @@
         <!-- ros2_control Real Robot -->
         <xacro:unless value="$(arg is_sim)">
             <hardware>
-                <plugin>bumperbot_firmware/BumperbotInterface</plugin>
+                <plugin>new_robot_firmware/NewRobotInterface</plugin>
                 <param name="port">/dev/ttyUSB0</param>
             </hardware>
         </xacro:unless>
