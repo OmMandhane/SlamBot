@@ -1,6 +1,7 @@
 /home/om/slambot/build/new_robot_controller/CMakeFiles/uninstall.dir
 /home/om/slambot/build/new_robot_controller/CMakeFiles/new_robot_controller_uninstall.dir
 /home/om/slambot/build/new_robot_controller/CMakeFiles/simple_controller.dir
+/home/om/slambot/build/new_robot_controller/CMakeFiles/keyboard_control.dir
 /home/om/slambot/build/new_robot_controller/CMakeFiles/ament_cmake_python_copy_new_robot_controller.dir
 /home/om/slambot/build/new_robot_controller/CMakeFiles/ament_cmake_python_build_new_robot_controller_egg.dir
 /home/om/slambot/build/new_robot_controller/CMakeFiles/test.dir

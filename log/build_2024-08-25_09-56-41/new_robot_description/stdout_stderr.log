@@ -1,0 +1,97 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/om/slambot/build/new_robot_description
+-- Install configuration: ""
+-- Installing: /home/om/slambot/install/new_robot_description/share/new_robot_description//urdf
+-- Installing: /home/om/slambot/install/new_robot_description/share/new_robot_description//urdf/base_robot.xacro
+-- Installing: /home/om/slambot/install/new_robot_description/share/new_robot_description//urdf/common_properties.xacro
+-- Installing: /home/om/slambot/install/new_robot_description/share/new_robot_description//urdf/base_robot_gazebo.xacro
+-- Installing: /home/om/slambot/install/new_robot_description/share/new_robot_description//urdf/my_robot.urdf.xacro
+-- Installing: /home/om/slambot/install/new_robot_description/share/new_robot_description//urdf/ros2_control.xacro
+-- Installing: /home/om/slambot/install/new_robot_description/share/new_robot_description//urdf/laser.xacro
+-- Installing: /home/om/slambot/install/new_robot_description/share/new_robot_description//launch
+-- Installing: /home/om/slambot/install/new_robot_description/share/new_robot_description//launch/gazebo.launch.py
+-- Installing: /home/om/slambot/install/new_robot_description/share/new_robot_description//launch/display.launch.py
+-- Installing: /home/om/slambot/install/new_robot_description/share/new_robot_description//launch/my_robot.launch.xml
+-- Installing: /home/om/slambot/install/new_robot_description/share/new_robot_description//rviz
+-- Installing: /home/om/slambot/install/new_robot_description/share/new_robot_description//rviz/urdf_config.rviz
+-- Installing: /home/om/slambot/install/new_robot_description/share/new_robot_description//rviz/display.rviz
+-- Installing: /home/om/slambot/install/new_robot_description/share/new_robot_description//models
+-- Installing: /home/om/slambot/install/new_robot_description/share/new_robot_description//models/workcell
+-- Installing: /home/om/slambot/install/new_robot_description/share/new_robot_description//models/workcell/model.sdf
+-- Installing: /home/om/slambot/install/new_robot_description/share/new_robot_description//models/workcell/materials
+-- Installing: /home/om/slambot/install/new_robot_description/share/new_robot_description//models/workcell/materials/textures
+-- Installing: /home/om/slambot/install/new_robot_description/share/new_robot_description//models/workcell/materials/textures/Plywood.png
+-- Installing: /home/om/slambot/install/new_robot_description/share/new_robot_description//models/workcell/materials/textures/RubberMat.png
+-- Installing: /home/om/slambot/install/new_robot_description/share/new_robot_description//models/workcell/materials/textures/RollupDoor.png
+-- Installing: /home/om/slambot/install/new_robot_description/share/new_robot_description//models/workcell/materials/textures/Wall_Concrete.png
+-- Installing: /home/om/slambot/install/new_robot_description/share/new_robot_description//models/workcell/materials/textures/Yellow.png
+-- Installing: /home/om/slambot/install/new_robot_description/share/new_robot_description//models/workcell/materials/textures/Shelves.png
+-- Installing: /home/om/slambot/install/new_robot_description/share/new_robot_description//models/workcell/materials/textures/PalletWrap.png
+-- Installing: /home/om/slambot/install/new_robot_description/share/new_robot_description//models/workcell/materials/textures/CardboardBoxes.png
+-- Installing: /home/om/slambot/install/new_robot_description/share/new_robot_description//models/workcell/materials/textures/Pillar.png
+-- Installing: /home/om/slambot/install/new_robot_description/share/new_robot_description//models/workcell/materials/textures/Pallet.png
+-- Installing: /home/om/slambot/install/new_robot_description/share/new_robot_description//models/workcell/materials/textures/Mesh.png
+-- Installing: /home/om/slambot/install/new_robot_description/share/new_robot_description//models/workcell/materials/textures/Floor.png
+-- Installing: /home/om/slambot/install/new_robot_description/share/new_robot_description//models/workcell/materials/textures/Conveyor.png
+-- Installing: /home/om/slambot/install/new_robot_description/share/new_robot_description//models/workcell/materials/textures/Door_Window.png
+-- Installing: /home/om/slambot/install/new_robot_description/share/new_robot_description//models/workcell/materials/textures/Stairs.png
+-- Installing: /home/om/slambot/install/new_robot_description/share/new_robot_description//models/workcell/materials/textures/WorkCell_Render.png
+-- Installing: /home/om/slambot/install/new_robot_description/share/new_robot_description//models/workcell/materials/textures/ControlPanel.png
+-- Installing: /home/om/slambot/install/new_robot_description/share/new_robot_description//models/workcell/materials/textures/Wall_Corrugated.png
+-- Installing: /home/om/slambot/install/new_robot_description/share/new_robot_description//models/workcell/materials/textures/Bin.png
+-- Installing: /home/om/slambot/install/new_robot_description/share/new_robot_description//models/workcell/model.config
+-- Installing: /home/om/slambot/install/new_robot_description/share/new_robot_description//models/workcell/meshes
+-- Installing: /home/om/slambot/install/new_robot_description/share/new_robot_description//models/workcell/meshes/mesh.dae
+-- Installing: /home/om/slambot/install/new_robot_description/share/new_robot_description//models/workcell/meshes/mesh_backup.dae
+-- Installing: /home/om/slambot/install/new_robot_description/share/new_robot_description//models/workcell_bin
+-- Installing: /home/om/slambot/install/new_robot_description/share/new_robot_description//models/workcell_bin/model.sdf
+-- Installing: /home/om/slambot/install/new_robot_description/share/new_robot_description//models/workcell_bin/materials
+-- Installing: /home/om/slambot/install/new_robot_description/share/new_robot_description//models/workcell_bin/materials/textures
+-- Installing: /home/om/slambot/install/new_robot_description/share/new_robot_description//models/workcell_bin/materials/textures/bin.png
+-- Installing: /home/om/slambot/install/new_robot_description/share/new_robot_description//models/workcell_bin/model.config
+-- Installing: /home/om/slambot/install/new_robot_description/share/new_robot_description//models/workcell_bin/meshes
+-- Installing: /home/om/slambot/install/new_robot_description/share/new_robot_description//models/workcell_bin/meshes/bin.dae
+-- Installing: /home/om/slambot/install/new_robot_description/share/new_robot_description//models/ground_plane
+-- Installing: /home/om/slambot/install/new_robot_description/share/new_robot_description//models/ground_plane/model.sdf
+-- Installing: /home/om/slambot/install/new_robot_description/share/new_robot_description//models/ground_plane/model-1_4.sdf
+-- Installing: /home/om/slambot/install/new_robot_description/share/new_robot_description//models/ground_plane/model.config
+-- Installing: /home/om/slambot/install/new_robot_description/share/new_robot_description//models/ground_plane/model-1_3.sdf
+-- Installing: /home/om/slambot/install/new_robot_description/share/new_robot_description//models/ground_plane/model-1_2.sdf
+-- Installing: /home/om/slambot/install/new_robot_description/share/new_robot_description//models/sun
+-- Installing: /home/om/slambot/install/new_robot_description/share/new_robot_description//models/sun/model.sdf
+-- Installing: /home/om/slambot/install/new_robot_description/share/new_robot_description//models/sun/model-1_4.sdf
+-- Installing: /home/om/slambot/install/new_robot_description/share/new_robot_description//models/sun/model.config
+-- Installing: /home/om/slambot/install/new_robot_description/share/new_robot_description//models/sun/model-1_3.sdf
+-- Installing: /home/om/slambot/install/new_robot_description/share/new_robot_description//models/sun/model-1_2.sdf
+-- Installing: /home/om/slambot/install/new_robot_description/share/new_robot_description//worlds
+-- Installing: /home/om/slambot/install/new_robot_description/share/new_robot_description//worlds/warehouse.world
+-- Installing: /home/om/slambot/install/new_robot_description/share/ament_index/resource_index/package_run_dependencies/new_robot_description
+-- Installing: /home/om/slambot/install/new_robot_description/share/ament_index/resource_index/parent_prefix_path/new_robot_description
+-- Installing: /home/om/slambot/install/new_robot_description/share/new_robot_description/environment/ament_prefix_path.sh
+-- Installing: /home/om/slambot/install/new_robot_description/share/new_robot_description/environment/ament_prefix_path.dsv
+-- Installing: /home/om/slambot/install/new_robot_description/share/new_robot_description/environment/path.sh
+-- Installing: /home/om/slambot/install/new_robot_description/share/new_robot_description/environment/path.dsv
+-- Installing: /home/om/slambot/install/new_robot_description/share/new_robot_description/local_setup.bash
+-- Installing: /home/om/slambot/install/new_robot_description/share/new_robot_description/local_setup.sh
+-- Installing: /home/om/slambot/install/new_robot_description/share/new_robot_description/local_setup.zsh
+-- Installing: /home/om/slambot/install/new_robot_description/share/new_robot_description/local_setup.dsv
+-- Installing: /home/om/slambot/install/new_robot_description/share/new_robot_description/package.dsv
+-- Installing: /home/om/slambot/install/new_robot_description/share/ament_index/resource_index/packages/new_robot_description
+-- Installing: /home/om/slambot/install/new_robot_description/share/new_robot_description/cmake/new_robot_descriptionConfig.cmake
+-- Installing: /home/om/slambot/install/new_robot_description/share/new_robot_description/cmake/new_robot_descriptionConfig-version.cmake
+-- Installing: /home/om/slambot/install/new_robot_description/share/new_robot_description/package.xml

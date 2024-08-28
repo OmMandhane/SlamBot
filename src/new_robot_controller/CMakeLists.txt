@@ -14,12 +14,14 @@ find_package(tf2 REQUIRED)
 find_package(tf2_ros REQUIRED)
 
 
-
 include_directories(include)
 include_directories(${EIGEN3_INCLUDE_DIR})
 
 add_executable(simple_controller src/simple_controller.cpp)
 ament_target_dependencies(simple_controller rclcpp geometry_msgs std_msgs sensor_msgs nav_msgs tf2 tf2_ros ${Eigen_LIBRARIES})
+
+add_executable(keyboard_control src/keyboard_control.cpp)
+ament_target_dependencies(keyboard_control rclcpp geometry_msgs std_msgs)
 
 ament_python_install_package(${PROJECT_NAME})
 
@@ -32,7 +34,10 @@ install(TARGETS
   simple_controller
   DESTINATION lib/${PROJECT_NAME}
 )
-
+install(TARGETS
+  keyboard_control
+  DESTINATION lib/${PROJECT_NAME}
+)
 install(
   DIRECTORY launch config
   DESTINATION share/${PROJECT_NAME}

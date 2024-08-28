@@ -862,6 +862,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/uninstall.dir/DependInfo.cmake"
   "CMakeFiles/new_robot_controller_uninstall.dir/DependInfo.cmake"
   "CMakeFiles/simple_controller.dir/DependInfo.cmake"
+  "CMakeFiles/keyboard_control.dir/DependInfo.cmake"
   "CMakeFiles/ament_cmake_python_copy_new_robot_controller.dir/DependInfo.cmake"
   "CMakeFiles/ament_cmake_python_build_new_robot_controller_egg.dir/DependInfo.cmake"
   )

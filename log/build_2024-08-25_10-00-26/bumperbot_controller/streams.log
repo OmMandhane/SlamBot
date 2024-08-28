@@ -1,0 +1,66 @@
+[0.050s] Invoking command in '/home/om/slambot/build/bumperbot_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/om/slambot/build/bumperbot_controller -- -j8 -l8
+[0.229s] [ 25%] [32mBuilding CXX object CMakeFiles/simple_controller.dir/src/simple_controller.cpp.o[0m
+[0.236s] [ 25%] Built target ament_cmake_python_copy_bumperbot_controller
+[0.255s] [ 50%] [32mBuilding CXX object CMakeFiles/noisy_controller.dir/src/noisy_controller.cpp.o[0m
+[1.046s] running egg_info
+[1.052s] writing bumperbot_controller.egg-info/PKG-INFO
+[1.053s] writing dependency_links to bumperbot_controller.egg-info/dependency_links.txt
+[1.053s] writing top-level names to bumperbot_controller.egg-info/top_level.txt
+[1.066s] reading manifest file 'bumperbot_controller.egg-info/SOURCES.txt'
+[1.066s] writing manifest file 'bumperbot_controller.egg-info/SOURCES.txt'
+[1.160s] [ 50%] Built target ament_cmake_python_build_bumperbot_controller_egg
+[28.312s] [ 75%] [32m[1mLinking CXX executable noisy_controller[0m
+[31.042s] [ 75%] Built target noisy_controller
+[36.758s] [100%] [32m[1mLinking CXX executable simple_controller[0m
+[38.251s] [100%] Built target simple_controller
+[38.295s] Invoked command in '/home/om/slambot/build/bumperbot_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/om/slambot/build/bumperbot_controller -- -j8 -l8
+[38.350s] Invoking command in '/home/om/slambot/build/bumperbot_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/om/slambot/build/bumperbot_controller
+[38.360s] -- Install configuration: ""
+[38.360s] -- Installing: /home/om/slambot/install/bumperbot_controller/share/bumperbot_controller/environment/pythonpath.sh
+[38.360s] -- Installing: /home/om/slambot/install/bumperbot_controller/share/bumperbot_controller/environment/pythonpath.dsv
+[38.361s] -- Installing: /home/om/slambot/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller-0.0.0-py3.10.egg-info
+[38.361s] -- Installing: /home/om/slambot/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller-0.0.0-py3.10.egg-info/PKG-INFO
+[38.361s] -- Installing: /home/om/slambot/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller-0.0.0-py3.10.egg-info/dependency_links.txt
+[38.361s] -- Installing: /home/om/slambot/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller-0.0.0-py3.10.egg-info/SOURCES.txt
+[38.362s] -- Installing: /home/om/slambot/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller-0.0.0-py3.10.egg-info/top_level.txt
+[38.362s] -- Installing: /home/om/slambot/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller
+[38.362s] -- Installing: /home/om/slambot/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller/simple_controller.py
+[38.362s] -- Installing: /home/om/slambot/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller/noisy_controller.py
+[38.366s] -- Installing: /home/om/slambot/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller/__init__.py
+[38.431s] Listing '/home/om/slambot/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller'...
+[38.431s] Compiling '/home/om/slambot/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller/__init__.py'...
+[38.431s] Compiling '/home/om/slambot/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller/noisy_controller.py'...
+[38.431s] Compiling '/home/om/slambot/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller/simple_controller.py'...
+[38.439s] -- Installing: /home/om/slambot/install/bumperbot_controller/include/include
+[38.440s] -- Installing: /home/om/slambot/install/bumperbot_controller/include/include/bumperbot_controller
+[38.440s] -- Installing: /home/om/slambot/install/bumperbot_controller/include/include/bumperbot_controller/simple_controller.hpp
+[38.440s] -- Installing: /home/om/slambot/install/bumperbot_controller/include/include/bumperbot_controller/noisy_controller.hpp
+[38.440s] -- Installing: /home/om/slambot/install/bumperbot_controller/lib/bumperbot_controller/simple_controller
+[38.453s] -- Set runtime path of "/home/om/slambot/install/bumperbot_controller/lib/bumperbot_controller/simple_controller" to ""
+[38.455s] -- Installing: /home/om/slambot/install/bumperbot_controller/lib/bumperbot_controller/noisy_controller
+[38.458s] -- Set runtime path of "/home/om/slambot/install/bumperbot_controller/lib/bumperbot_controller/noisy_controller" to ""
+[38.458s] -- Installing: /home/om/slambot/install/bumperbot_controller/share/bumperbot_controller/launch
+[38.459s] -- Installing: /home/om/slambot/install/bumperbot_controller/share/bumperbot_controller/launch/controller.launch.py
+[38.459s] -- Installing: /home/om/slambot/install/bumperbot_controller/share/bumperbot_controller/launch/joystick_teleop.launch.py
+[38.459s] -- Installing: /home/om/slambot/install/bumperbot_controller/share/bumperbot_controller/config
+[38.460s] -- Installing: /home/om/slambot/install/bumperbot_controller/share/bumperbot_controller/config/bumperbot_controllers.yaml
+[38.460s] -- Installing: /home/om/slambot/install/bumperbot_controller/share/bumperbot_controller/config/joy_config.yaml
+[38.460s] -- Installing: /home/om/slambot/install/bumperbot_controller/share/bumperbot_controller/config/joy_teleop.yaml
+[38.460s] -- Installing: /home/om/slambot/install/bumperbot_controller/lib/bumperbot_controller/simple_controller.py
+[38.460s] -- Installing: /home/om/slambot/install/bumperbot_controller/lib/bumperbot_controller/noisy_controller.py
+[38.461s] -- Installing: /home/om/slambot/install/bumperbot_controller/share/ament_index/resource_index/package_run_dependencies/bumperbot_controller
+[38.461s] -- Installing: /home/om/slambot/install/bumperbot_controller/share/ament_index/resource_index/parent_prefix_path/bumperbot_controller
+[38.461s] -- Installing: /home/om/slambot/install/bumperbot_controller/share/bumperbot_controller/environment/ament_prefix_path.sh
+[38.461s] -- Installing: /home/om/slambot/install/bumperbot_controller/share/bumperbot_controller/environment/ament_prefix_path.dsv
+[38.462s] -- Installing: /home/om/slambot/install/bumperbot_controller/share/bumperbot_controller/environment/path.sh
+[38.462s] -- Installing: /home/om/slambot/install/bumperbot_controller/share/bumperbot_controller/environment/path.dsv
+[38.462s] -- Installing: /home/om/slambot/install/bumperbot_controller/share/bumperbot_controller/local_setup.bash
+[38.463s] -- Installing: /home/om/slambot/install/bumperbot_controller/share/bumperbot_controller/local_setup.sh
+[38.463s] -- Installing: /home/om/slambot/install/bumperbot_controller/share/bumperbot_controller/local_setup.zsh
+[38.463s] -- Installing: /home/om/slambot/install/bumperbot_controller/share/bumperbot_controller/local_setup.dsv
+[38.463s] -- Installing: /home/om/slambot/install/bumperbot_controller/share/bumperbot_controller/package.dsv
+[38.464s] -- Installing: /home/om/slambot/install/bumperbot_controller/share/ament_index/resource_index/packages/bumperbot_controller
+[38.464s] -- Installing: /home/om/slambot/install/bumperbot_controller/share/bumperbot_controller/cmake/bumperbot_controllerConfig.cmake
+[38.464s] -- Installing: /home/om/slambot/install/bumperbot_controller/share/bumperbot_controller/cmake/bumperbot_controllerConfig-version.cmake
+[38.464s] -- Installing: /home/om/slambot/install/bumperbot_controller/share/bumperbot_controller/package.xml
+[38.468s] Invoked command in '/home/om/slambot/build/bumperbot_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/om/slambot/build/bumperbot_controller

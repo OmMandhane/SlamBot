@@ -1,0 +1,31 @@
+[35m[1mConsolidate compiler generated dependencies of target new_robot_firmware[0m
+[100%] Built target new_robot_firmware
+-- Install configuration: ""
+-- Up-to-date: /home/om/slambot/install/new_robot_firmware/share/new_robot_firmware/new_robot_interface.xml
+-- Up-to-date: /home/om/slambot/install/new_robot_firmware/lib/libnew_robot_firmware.so
+-- Up-to-date: /home/om/slambot/install/new_robot_firmware/include/include
+-- Up-to-date: /home/om/slambot/install/new_robot_firmware/include/include/new_robot_firmware
+-- Up-to-date: /home/om/slambot/install/new_robot_firmware/include/include/new_robot_firmware/new_robot_interface.hpp
+-- Up-to-date: /home/om/slambot/install/new_robot_firmware/share/new_robot_firmware/launch
+-- Up-to-date: /home/om/slambot/install/new_robot_firmware/share/new_robot_firmware/launch/hardware_interface.launch.py
+-- Up-to-date: /home/om/slambot/install/new_robot_firmware/share/new_robot_firmware/environment/library_path.sh
+-- Up-to-date: /home/om/slambot/install/new_robot_firmware/share/new_robot_firmware/environment/library_path.dsv
+-- Up-to-date: /home/om/slambot/install/new_robot_firmware/share/ament_index/resource_index/package_run_dependencies/new_robot_firmware
+-- Up-to-date: /home/om/slambot/install/new_robot_firmware/share/ament_index/resource_index/parent_prefix_path/new_robot_firmware
+-- Up-to-date: /home/om/slambot/install/new_robot_firmware/share/new_robot_firmware/environment/ament_prefix_path.sh
+-- Up-to-date: /home/om/slambot/install/new_robot_firmware/share/new_robot_firmware/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/om/slambot/install/new_robot_firmware/share/new_robot_firmware/environment/path.sh
+-- Up-to-date: /home/om/slambot/install/new_robot_firmware/share/new_robot_firmware/environment/path.dsv
+-- Up-to-date: /home/om/slambot/install/new_robot_firmware/share/new_robot_firmware/local_setup.bash
+-- Up-to-date: /home/om/slambot/install/new_robot_firmware/share/new_robot_firmware/local_setup.sh
+-- Up-to-date: /home/om/slambot/install/new_robot_firmware/share/new_robot_firmware/local_setup.zsh
+-- Up-to-date: /home/om/slambot/install/new_robot_firmware/share/new_robot_firmware/local_setup.dsv
+-- Installing: /home/om/slambot/install/new_robot_firmware/share/new_robot_firmware/package.dsv
+-- Up-to-date: /home/om/slambot/install/new_robot_firmware/share/ament_index/resource_index/packages/new_robot_firmware
+-- Up-to-date: /home/om/slambot/install/new_robot_firmware/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/new_robot_firmware
+-- Up-to-date: /home/om/slambot/install/new_robot_firmware/share/new_robot_firmware/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date: /home/om/slambot/install/new_robot_firmware/share/new_robot_firmware/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date: /home/om/slambot/install/new_robot_firmware/share/new_robot_firmware/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date: /home/om/slambot/install/new_robot_firmware/share/new_robot_firmware/cmake/new_robot_firmwareConfig.cmake
+-- Up-to-date: /home/om/slambot/install/new_robot_firmware/share/new_robot_firmware/cmake/new_robot_firmwareConfig-version.cmake
+-- Up-to-date: /home/om/slambot/install/new_robot_firmware/share/new_robot_firmware/package.xml

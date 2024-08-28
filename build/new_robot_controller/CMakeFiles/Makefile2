@@ -64,6 +64,7 @@ CMAKE_BINARY_DIR = /home/om/slambot/build/new_robot_controller
 
 # The main recursive "all" target.
 all: CMakeFiles/simple_controller.dir/all
+all: CMakeFiles/keyboard_control.dir/all
 all: CMakeFiles/ament_cmake_python_build_new_robot_controller_egg.dir/all
 .PHONY : all
 
@@ -75,6 +76,7 @@ preinstall:
 clean: CMakeFiles/uninstall.dir/clean
 clean: CMakeFiles/new_robot_controller_uninstall.dir/clean
 clean: CMakeFiles/simple_controller.dir/clean
+clean: CMakeFiles/keyboard_control.dir/clean
 clean: CMakeFiles/ament_cmake_python_copy_new_robot_controller.dir/clean
 clean: CMakeFiles/ament_cmake_python_build_new_robot_controller_egg.dir/clean
 .PHONY : clean
@@ -138,7 +140,7 @@ CMakeFiles/new_robot_controller_uninstall.dir/clean:
 CMakeFiles/simple_controller.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_controller.dir/build.make CMakeFiles/simple_controller.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_controller.dir/build.make CMakeFiles/simple_controller.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/om/slambot/build/new_robot_controller/CMakeFiles --progress-num=1,2 "Built target simple_controller"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/om/slambot/build/new_robot_controller/CMakeFiles --progress-num=3,4 "Built target simple_controller"
 .PHONY : CMakeFiles/simple_controller.dir/all
 
 # Build rule for subdir invocation for target.
@@ -156,6 +158,32 @@ simple_controller: CMakeFiles/simple_controller.dir/rule
 CMakeFiles/simple_controller.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_controller.dir/build.make CMakeFiles/simple_controller.dir/clean
 .PHONY : CMakeFiles/simple_controller.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/keyboard_control.dir
+
+# All Build rule for target.
+CMakeFiles/keyboard_control.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/keyboard_control.dir/build.make CMakeFiles/keyboard_control.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/keyboard_control.dir/build.make CMakeFiles/keyboard_control.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/om/slambot/build/new_robot_controller/CMakeFiles --progress-num=1,2 "Built target keyboard_control"
+.PHONY : CMakeFiles/keyboard_control.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/keyboard_control.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/om/slambot/build/new_robot_controller/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/keyboard_control.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/om/slambot/build/new_robot_controller/CMakeFiles 0
+.PHONY : CMakeFiles/keyboard_control.dir/rule
+
+# Convenience name for target.
+keyboard_control: CMakeFiles/keyboard_control.dir/rule
+.PHONY : keyboard_control
+
+# clean rule for target.
+CMakeFiles/keyboard_control.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/keyboard_control.dir/build.make CMakeFiles/keyboard_control.dir/clean
+.PHONY : CMakeFiles/keyboard_control.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/ament_cmake_python_copy_new_robot_controller.dir

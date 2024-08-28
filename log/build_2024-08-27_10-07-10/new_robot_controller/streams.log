@@ -1,0 +1,54 @@
+[0.041s] Invoking command in '/home/om/slambot/build/new_robot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/om/slambot/install/bumperbot_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/om/slambot/build/new_robot_controller -- -j8 -l8
+[0.168s] [ 50%] Built target keyboard_control
+[0.170s] [100%] Built target simple_controller
+[0.176s] [100%] Built target ament_cmake_python_copy_new_robot_controller
+[0.455s] running egg_info
+[0.455s] writing new_robot_controller.egg-info/PKG-INFO
+[0.455s] writing dependency_links to new_robot_controller.egg-info/dependency_links.txt
+[0.456s] writing top-level names to new_robot_controller.egg-info/top_level.txt
+[0.460s] reading manifest file 'new_robot_controller.egg-info/SOURCES.txt'
+[0.464s] writing manifest file 'new_robot_controller.egg-info/SOURCES.txt'
+[0.507s] [100%] Built target ament_cmake_python_build_new_robot_controller_egg
+[0.519s] Invoked command in '/home/om/slambot/build/new_robot_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/om/slambot/install/bumperbot_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/om/slambot/build/new_robot_controller -- -j8 -l8
+[0.543s] Invoking command in '/home/om/slambot/build/new_robot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/om/slambot/install/bumperbot_py_examples:/opt/ros/humble /usr/bin/cmake --install /home/om/slambot/build/new_robot_controller
+[0.551s] -- Install configuration: ""
+[0.551s] -- Up-to-date: /home/om/slambot/install/new_robot_controller/share/new_robot_controller/environment/pythonpath.sh
+[0.551s] -- Up-to-date: /home/om/slambot/install/new_robot_controller/share/new_robot_controller/environment/pythonpath.dsv
+[0.551s] -- Up-to-date: /home/om/slambot/install/new_robot_controller/local/lib/python3.10/dist-packages/new_robot_controller-0.0.0-py3.10.egg-info
+[0.551s] -- Installing: /home/om/slambot/install/new_robot_controller/local/lib/python3.10/dist-packages/new_robot_controller-0.0.0-py3.10.egg-info/PKG-INFO
+[0.552s] -- Installing: /home/om/slambot/install/new_robot_controller/local/lib/python3.10/dist-packages/new_robot_controller-0.0.0-py3.10.egg-info/dependency_links.txt
+[0.552s] -- Installing: /home/om/slambot/install/new_robot_controller/local/lib/python3.10/dist-packages/new_robot_controller-0.0.0-py3.10.egg-info/SOURCES.txt
+[0.552s] -- Installing: /home/om/slambot/install/new_robot_controller/local/lib/python3.10/dist-packages/new_robot_controller-0.0.0-py3.10.egg-info/top_level.txt
+[0.552s] -- Up-to-date: /home/om/slambot/install/new_robot_controller/local/lib/python3.10/dist-packages/new_robot_controller
+[0.552s] -- Up-to-date: /home/om/slambot/install/new_robot_controller/local/lib/python3.10/dist-packages/new_robot_controller/simple_controller.py
+[0.552s] -- Up-to-date: /home/om/slambot/install/new_robot_controller/local/lib/python3.10/dist-packages/new_robot_controller/__init__.py
+[0.579s] Listing '/home/om/slambot/install/new_robot_controller/local/lib/python3.10/dist-packages/new_robot_controller'...
+[0.585s] -- Up-to-date: /home/om/slambot/install/new_robot_controller/include/include
+[0.585s] -- Up-to-date: /home/om/slambot/install/new_robot_controller/include/include/new_robot_controller
+[0.586s] -- Up-to-date: /home/om/slambot/install/new_robot_controller/include/include/new_robot_controller/simple_controller.hpp
+[0.586s] -- Up-to-date: /home/om/slambot/install/new_robot_controller/lib/new_robot_controller/simple_controller
+[0.586s] -- Up-to-date: /home/om/slambot/install/new_robot_controller/lib/new_robot_controller/keyboard_control
+[0.587s] -- Up-to-date: /home/om/slambot/install/new_robot_controller/share/new_robot_controller/launch
+[0.587s] -- Up-to-date: /home/om/slambot/install/new_robot_controller/share/new_robot_controller/launch/joystick_teleop.launch.py
+[0.587s] -- Up-to-date: /home/om/slambot/install/new_robot_controller/share/new_robot_controller/launch/simple_controller.launch.py
+[0.587s] -- Up-to-date: /home/om/slambot/install/new_robot_controller/share/new_robot_controller/config
+[0.587s] -- Up-to-date: /home/om/slambot/install/new_robot_controller/share/new_robot_controller/config/joy_config.yaml
+[0.587s] -- Up-to-date: /home/om/slambot/install/new_robot_controller/share/new_robot_controller/config/new_robot_controllers.yaml
+[0.587s] -- Up-to-date: /home/om/slambot/install/new_robot_controller/share/new_robot_controller/config/joy_teleop.yaml
+[0.587s] -- Up-to-date: /home/om/slambot/install/new_robot_controller/lib/new_robot_controller/simple_controller.py
+[0.587s] -- Up-to-date: /home/om/slambot/install/new_robot_controller/share/ament_index/resource_index/package_run_dependencies/new_robot_controller
+[0.587s] -- Up-to-date: /home/om/slambot/install/new_robot_controller/share/ament_index/resource_index/parent_prefix_path/new_robot_controller
+[0.587s] -- Up-to-date: /home/om/slambot/install/new_robot_controller/share/new_robot_controller/environment/ament_prefix_path.sh
+[0.588s] -- Up-to-date: /home/om/slambot/install/new_robot_controller/share/new_robot_controller/environment/ament_prefix_path.dsv
+[0.588s] -- Up-to-date: /home/om/slambot/install/new_robot_controller/share/new_robot_controller/environment/path.sh
+[0.588s] -- Up-to-date: /home/om/slambot/install/new_robot_controller/share/new_robot_controller/environment/path.dsv
+[0.588s] -- Up-to-date: /home/om/slambot/install/new_robot_controller/share/new_robot_controller/local_setup.bash
+[0.588s] -- Up-to-date: /home/om/slambot/install/new_robot_controller/share/new_robot_controller/local_setup.sh
+[0.588s] -- Up-to-date: /home/om/slambot/install/new_robot_controller/share/new_robot_controller/local_setup.zsh
+[0.588s] -- Up-to-date: /home/om/slambot/install/new_robot_controller/share/new_robot_controller/local_setup.dsv
+[0.588s] -- Installing: /home/om/slambot/install/new_robot_controller/share/new_robot_controller/package.dsv
+[0.588s] -- Up-to-date: /home/om/slambot/install/new_robot_controller/share/ament_index/resource_index/packages/new_robot_controller
+[0.588s] -- Up-to-date: /home/om/slambot/install/new_robot_controller/share/new_robot_controller/cmake/new_robot_controllerConfig.cmake
+[0.588s] -- Up-to-date: /home/om/slambot/install/new_robot_controller/share/new_robot_controller/cmake/new_robot_controllerConfig-version.cmake
+[0.588s] -- Up-to-date: /home/om/slambot/install/new_robot_controller/share/new_robot_controller/package.xml
+[0.590s] Invoked command in '/home/om/slambot/build/new_robot_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/om/slambot/install/bumperbot_py_examples:/opt/ros/humble /usr/bin/cmake --install /home/om/slambot/build/new_robot_controller

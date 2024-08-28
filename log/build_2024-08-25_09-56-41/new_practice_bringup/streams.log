@@ -1,0 +1,46 @@
+[0.063s] Invoking command in '/home/om/slambot/build/new_practice_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/om/slambot/install/new_robot_description:/home/om/slambot/install/new_practice_bringup:/home/om/slambot/install/bumperbot_py_examples:/home/om/slambot/install/bumperbot_description:/opt/ros/humble /usr/bin/cmake /home/om/slambot/src/new_practice_bringup -DCMAKE_INSTALL_PREFIX=/home/om/slambot/install/new_practice_bringup
+[1.618s] -- The C compiler identification is GNU 11.4.0
+[1.618s] -- The CXX compiler identification is GNU 11.4.0
+[1.619s] -- Detecting C compiler ABI info
+[1.619s] -- Detecting C compiler ABI info - done
+[1.619s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.619s] -- Detecting C compile features
+[1.619s] -- Detecting C compile features - done
+[1.619s] -- Detecting CXX compiler ABI info
+[1.620s] -- Detecting CXX compiler ABI info - done
+[1.620s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.620s] -- Detecting CXX compile features
+[1.620s] -- Detecting CXX compile features - done
+[1.620s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.620s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.620s] -- Configuring done
+[1.620s] -- Generating done
+[1.621s] -- Build files have been written to: /home/om/slambot/build/new_practice_bringup
+[1.630s] Invoked command in '/home/om/slambot/build/new_practice_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/om/slambot/install/new_robot_description:/home/om/slambot/install/new_practice_bringup:/home/om/slambot/install/bumperbot_py_examples:/home/om/slambot/install/bumperbot_description:/opt/ros/humble /usr/bin/cmake /home/om/slambot/src/new_practice_bringup -DCMAKE_INSTALL_PREFIX=/home/om/slambot/install/new_practice_bringup
+[1.630s] Invoking command in '/home/om/slambot/build/new_practice_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/om/slambot/install/new_robot_description:/home/om/slambot/install/new_practice_bringup:/home/om/slambot/install/bumperbot_py_examples:/home/om/slambot/install/bumperbot_description:/opt/ros/humble /usr/bin/cmake --build /home/om/slambot/build/new_practice_bringup -- -j8 -l8
+[1.701s] Invoked command in '/home/om/slambot/build/new_practice_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/om/slambot/install/new_robot_description:/home/om/slambot/install/new_practice_bringup:/home/om/slambot/install/bumperbot_py_examples:/home/om/slambot/install/bumperbot_description:/opt/ros/humble /usr/bin/cmake --build /home/om/slambot/build/new_practice_bringup -- -j8 -l8
+[1.746s] Invoking command in '/home/om/slambot/build/new_practice_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/om/slambot/install/new_robot_description:/home/om/slambot/install/new_practice_bringup:/home/om/slambot/install/bumperbot_py_examples:/home/om/slambot/install/bumperbot_description:/opt/ros/humble /usr/bin/cmake --install /home/om/slambot/build/new_practice_bringup
+[1.769s] -- Install configuration: ""
+[1.769s] -- Installing: /home/om/slambot/install/new_practice_bringup/share/new_practice_bringup//launch
+[1.769s] -- Installing: /home/om/slambot/install/new_practice_bringup/share/new_practice_bringup//launch/real_robot_bringup.launch.py
+[1.769s] -- Installing: /home/om/slambot/install/new_practice_bringup/share/new_practice_bringup//launch/new_bringup.launch.xml
+[1.770s] -- Installing: /home/om/slambot/install/new_practice_bringup/share/new_practice_bringup//rviz
+[1.770s] -- Installing: /home/om/slambot/install/new_practice_bringup/share/new_practice_bringup//rviz/urdf_config.rviz
+[1.770s] -- Installing: /home/om/slambot/install/new_practice_bringup/share/new_practice_bringup//world
+[1.770s] -- Installing: /home/om/slambot/install/new_practice_bringup/share/new_practice_bringup//world/my_world
+[1.772s] -- Installing: /home/om/slambot/install/new_practice_bringup/share/ament_index/resource_index/package_run_dependencies/new_practice_bringup
+[1.772s] -- Installing: /home/om/slambot/install/new_practice_bringup/share/ament_index/resource_index/parent_prefix_path/new_practice_bringup
+[1.772s] -- Installing: /home/om/slambot/install/new_practice_bringup/share/new_practice_bringup/environment/ament_prefix_path.sh
+[1.772s] -- Installing: /home/om/slambot/install/new_practice_bringup/share/new_practice_bringup/environment/ament_prefix_path.dsv
+[1.772s] -- Installing: /home/om/slambot/install/new_practice_bringup/share/new_practice_bringup/environment/path.sh
+[1.775s] -- Installing: /home/om/slambot/install/new_practice_bringup/share/new_practice_bringup/environment/path.dsv
+[1.775s] -- Installing: /home/om/slambot/install/new_practice_bringup/share/new_practice_bringup/local_setup.bash
+[1.775s] -- Installing: /home/om/slambot/install/new_practice_bringup/share/new_practice_bringup/local_setup.sh
+[1.775s] -- Installing: /home/om/slambot/install/new_practice_bringup/share/new_practice_bringup/local_setup.zsh
+[1.775s] -- Installing: /home/om/slambot/install/new_practice_bringup/share/new_practice_bringup/local_setup.dsv
+[1.776s] -- Installing: /home/om/slambot/install/new_practice_bringup/share/new_practice_bringup/package.dsv
+[1.776s] -- Installing: /home/om/slambot/install/new_practice_bringup/share/ament_index/resource_index/packages/new_practice_bringup
+[1.776s] -- Installing: /home/om/slambot/install/new_practice_bringup/share/new_practice_bringup/cmake/new_practice_bringupConfig.cmake
+[1.776s] -- Installing: /home/om/slambot/install/new_practice_bringup/share/new_practice_bringup/cmake/new_practice_bringupConfig-version.cmake
+[1.776s] -- Installing: /home/om/slambot/install/new_practice_bringup/share/new_practice_bringup/package.xml
+[1.807s] Invoked command in '/home/om/slambot/build/new_practice_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/om/slambot/install/new_robot_description:/home/om/slambot/install/new_practice_bringup:/home/om/slambot/install/bumperbot_py_examples:/home/om/slambot/install/bumperbot_description:/opt/ros/humble /usr/bin/cmake --install /home/om/slambot/build/new_practice_bringup

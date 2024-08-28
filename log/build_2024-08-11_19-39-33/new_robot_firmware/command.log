@@ -1,3 +1,0 @@
-Invoking command in '/home/om/slambot/build/new_robot_firmware': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/om/slambot/src/new_robot_firmware -DCMAKE_INSTALL_PREFIX=/home/om/slambot/install/new_robot_firmware
-Invoked command in '/home/om/slambot/build/new_robot_firmware' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/om/slambot/src/new_robot_firmware -DCMAKE_INSTALL_PREFIX=/home/om/slambot/install/new_robot_firmware
-Invoking command in '/home/om/slambot/build/new_robot_firmware': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/om/slambot/build/new_robot_firmware -- -j8 -l8

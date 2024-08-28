@@ -48,6 +48,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
     "/home/om/slambot/src/new_robot_description/launch"
     "/home/om/slambot/src/new_robot_description/rviz"
     "/home/om/slambot/src/new_robot_description/models"
+    "/home/om/slambot/src/new_robot_description/worlds"
     )
 endif()
 

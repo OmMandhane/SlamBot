@@ -1,0 +1,47 @@
+[0.054s] Invoking command in '/home/om/slambot/build/cpp_examples': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/om/slambot/install/new_robot_description:/home/om/slambot/install/new_practice_bringup:/home/om/slambot/install/bumperbot_py_examples:/home/om/slambot/install/bumperbot_description:/opt/ros/humble /usr/bin/cmake /home/om/slambot/src/cpp_examples -DCMAKE_INSTALL_PREFIX=/home/om/slambot/install/cpp_examples
+[1.583s] -- The C compiler identification is GNU 11.4.0
+[1.583s] -- The CXX compiler identification is GNU 11.4.0
+[1.584s] -- Detecting C compiler ABI info
+[1.584s] -- Detecting C compiler ABI info - done
+[1.584s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.584s] -- Detecting C compile features
+[1.584s] -- Detecting C compile features - done
+[1.584s] -- Detecting CXX compiler ABI info
+[1.584s] -- Detecting CXX compiler ABI info - done
+[1.584s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.591s] -- Detecting CXX compile features
+[1.591s] -- Detecting CXX compile features - done
+[1.592s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.592s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.592s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.597s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.598s] -- Configured cppcheck include dirs: 
+[1.598s] -- Configured cppcheck exclude dirs and/or files: 
+[1.599s] -- Added test 'lint_cmake' to check CMake code style
+[1.601s] -- Added test 'uncrustify' to check C / C++ code style
+[1.601s] -- Configured uncrustify additional arguments: 
+[1.603s] -- Added test 'xmllint' to check XML markup files
+[1.606s] -- Configuring done
+[1.611s] -- Generating done
+[1.615s] -- Build files have been written to: /home/om/slambot/build/cpp_examples
+[1.625s] Invoked command in '/home/om/slambot/build/cpp_examples' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/om/slambot/install/new_robot_description:/home/om/slambot/install/new_practice_bringup:/home/om/slambot/install/bumperbot_py_examples:/home/om/slambot/install/bumperbot_description:/opt/ros/humble /usr/bin/cmake /home/om/slambot/src/cpp_examples -DCMAKE_INSTALL_PREFIX=/home/om/slambot/install/cpp_examples
+[1.631s] Invoking command in '/home/om/slambot/build/cpp_examples': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/om/slambot/install/new_robot_description:/home/om/slambot/install/new_practice_bringup:/home/om/slambot/install/bumperbot_py_examples:/home/om/slambot/install/bumperbot_description:/opt/ros/humble /usr/bin/cmake --build /home/om/slambot/build/cpp_examples -- -j8 -l8
+[1.715s] Invoked command in '/home/om/slambot/build/cpp_examples' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/om/slambot/install/new_robot_description:/home/om/slambot/install/new_practice_bringup:/home/om/slambot/install/bumperbot_py_examples:/home/om/slambot/install/bumperbot_description:/opt/ros/humble /usr/bin/cmake --build /home/om/slambot/build/cpp_examples -- -j8 -l8
+[1.762s] Invoking command in '/home/om/slambot/build/cpp_examples': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/om/slambot/install/new_robot_description:/home/om/slambot/install/new_practice_bringup:/home/om/slambot/install/bumperbot_py_examples:/home/om/slambot/install/bumperbot_description:/opt/ros/humble /usr/bin/cmake --install /home/om/slambot/build/cpp_examples
+[1.811s] -- Install configuration: ""
+[1.812s] -- Installing: /home/om/slambot/install/cpp_examples/share/ament_index/resource_index/package_run_dependencies/cpp_examples
+[1.812s] -- Installing: /home/om/slambot/install/cpp_examples/share/ament_index/resource_index/parent_prefix_path/cpp_examples
+[1.812s] -- Installing: /home/om/slambot/install/cpp_examples/share/cpp_examples/environment/ament_prefix_path.sh
+[1.812s] -- Installing: /home/om/slambot/install/cpp_examples/share/cpp_examples/environment/ament_prefix_path.dsv
+[1.812s] -- Installing: /home/om/slambot/install/cpp_examples/share/cpp_examples/environment/path.sh
+[1.812s] -- Installing: /home/om/slambot/install/cpp_examples/share/cpp_examples/environment/path.dsv
+[1.813s] -- Installing: /home/om/slambot/install/cpp_examples/share/cpp_examples/local_setup.bash
+[1.813s] -- Installing: /home/om/slambot/install/cpp_examples/share/cpp_examples/local_setup.sh
+[1.813s] -- Installing: /home/om/slambot/install/cpp_examples/share/cpp_examples/local_setup.zsh
+[1.813s] -- Installing: /home/om/slambot/install/cpp_examples/share/cpp_examples/local_setup.dsv
+[1.813s] -- Installing: /home/om/slambot/install/cpp_examples/share/cpp_examples/package.dsv
+[1.814s] -- Installing: /home/om/slambot/install/cpp_examples/share/ament_index/resource_index/packages/cpp_examples
+[1.814s] -- Installing: /home/om/slambot/install/cpp_examples/share/cpp_examples/cmake/cpp_examplesConfig.cmake
+[1.814s] -- Installing: /home/om/slambot/install/cpp_examples/share/cpp_examples/cmake/cpp_examplesConfig-version.cmake
+[1.814s] -- Installing: /home/om/slambot/install/cpp_examples/share/cpp_examples/package.xml
+[1.828s] Invoked command in '/home/om/slambot/build/cpp_examples' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/om/slambot/install/new_robot_description:/home/om/slambot/install/new_practice_bringup:/home/om/slambot/install/bumperbot_py_examples:/home/om/slambot/install/bumperbot_description:/opt/ros/humble /usr/bin/cmake --install /home/om/slambot/build/cpp_examples

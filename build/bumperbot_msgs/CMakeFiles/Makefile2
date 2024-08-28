@@ -468,8 +468,8 @@ CMakeFiles/ament_cmake_python_build_bumperbot_msgs_egg.dir/clean:
 # Target rules for target CMakeFiles/bumperbot_msgs__rosidl_generator_py.dir
 
 # All Build rule for target.
-CMakeFiles/bumperbot_msgs__rosidl_generator_py.dir/all: CMakeFiles/bumperbot_msgs__rosidl_generator_c.dir/all
 CMakeFiles/bumperbot_msgs__rosidl_generator_py.dir/all: bumperbot_msgs__py/CMakeFiles/bumperbot_msgs__py.dir/all
+CMakeFiles/bumperbot_msgs__rosidl_generator_py.dir/all: CMakeFiles/bumperbot_msgs__rosidl_generator_c.dir/all
 CMakeFiles/bumperbot_msgs__rosidl_generator_py.dir/all: CMakeFiles/bumperbot_msgs__rosidl_typesupport_c.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/bumperbot_msgs__rosidl_generator_py.dir/build.make CMakeFiles/bumperbot_msgs__rosidl_generator_py.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/bumperbot_msgs__rosidl_generator_py.dir/build.make CMakeFiles/bumperbot_msgs__rosidl_generator_py.dir/build
@@ -496,9 +496,9 @@ CMakeFiles/bumperbot_msgs__rosidl_generator_py.dir/clean:
 # Target rules for target CMakeFiles/bumperbot_msgs__rosidl_typesupport_fastrtps_c__pyext.dir
 
 # All Build rule for target.
+CMakeFiles/bumperbot_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/all: bumperbot_msgs__py/CMakeFiles/bumperbot_msgs__py.dir/all
 CMakeFiles/bumperbot_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/all: CMakeFiles/bumperbot_msgs__rosidl_generator_c.dir/all
 CMakeFiles/bumperbot_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/all: CMakeFiles/bumperbot_msgs__rosidl_typesupport_fastrtps_c.dir/all
-CMakeFiles/bumperbot_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/all: bumperbot_msgs__py/CMakeFiles/bumperbot_msgs__py.dir/all
 CMakeFiles/bumperbot_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/all: CMakeFiles/bumperbot_msgs__rosidl_typesupport_c.dir/all
 CMakeFiles/bumperbot_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/all: CMakeFiles/bumperbot_msgs__rosidl_generator_py.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/bumperbot_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/build.make CMakeFiles/bumperbot_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/depend
@@ -526,8 +526,8 @@ CMakeFiles/bumperbot_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/clean:
 # Target rules for target CMakeFiles/bumperbot_msgs__rosidl_typesupport_introspection_c__pyext.dir
 
 # All Build rule for target.
-CMakeFiles/bumperbot_msgs__rosidl_typesupport_introspection_c__pyext.dir/all: CMakeFiles/bumperbot_msgs__rosidl_generator_c.dir/all
 CMakeFiles/bumperbot_msgs__rosidl_typesupport_introspection_c__pyext.dir/all: bumperbot_msgs__py/CMakeFiles/bumperbot_msgs__py.dir/all
+CMakeFiles/bumperbot_msgs__rosidl_typesupport_introspection_c__pyext.dir/all: CMakeFiles/bumperbot_msgs__rosidl_generator_c.dir/all
 CMakeFiles/bumperbot_msgs__rosidl_typesupport_introspection_c__pyext.dir/all: CMakeFiles/bumperbot_msgs__rosidl_typesupport_introspection_c.dir/all
 CMakeFiles/bumperbot_msgs__rosidl_typesupport_introspection_c__pyext.dir/all: CMakeFiles/bumperbot_msgs__rosidl_typesupport_c.dir/all
 CMakeFiles/bumperbot_msgs__rosidl_typesupport_introspection_c__pyext.dir/all: CMakeFiles/bumperbot_msgs__rosidl_generator_py.dir/all
@@ -556,8 +556,8 @@ CMakeFiles/bumperbot_msgs__rosidl_typesupport_introspection_c__pyext.dir/clean:
 # Target rules for target CMakeFiles/bumperbot_msgs__rosidl_typesupport_c__pyext.dir
 
 # All Build rule for target.
-CMakeFiles/bumperbot_msgs__rosidl_typesupport_c__pyext.dir/all: CMakeFiles/bumperbot_msgs__rosidl_generator_c.dir/all
 CMakeFiles/bumperbot_msgs__rosidl_typesupport_c__pyext.dir/all: bumperbot_msgs__py/CMakeFiles/bumperbot_msgs__py.dir/all
+CMakeFiles/bumperbot_msgs__rosidl_typesupport_c__pyext.dir/all: CMakeFiles/bumperbot_msgs__rosidl_generator_c.dir/all
 CMakeFiles/bumperbot_msgs__rosidl_typesupport_c__pyext.dir/all: CMakeFiles/bumperbot_msgs__rosidl_typesupport_c.dir/all
 CMakeFiles/bumperbot_msgs__rosidl_typesupport_c__pyext.dir/all: CMakeFiles/bumperbot_msgs__rosidl_generator_py.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/bumperbot_msgs__rosidl_typesupport_c__pyext.dir/build.make CMakeFiles/bumperbot_msgs__rosidl_typesupport_c__pyext.dir/depend

@@ -211,6 +211,19 @@ simple_controller/fast:
 .PHONY : simple_controller/fast
 
 #=============================================================================
+# Target rules for targets named keyboard_control
+
+# Build rule for target.
+keyboard_control: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 keyboard_control
+.PHONY : keyboard_control
+
+# fast build rule for target.
+keyboard_control/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/keyboard_control.dir/build.make CMakeFiles/keyboard_control.dir/build
+.PHONY : keyboard_control/fast
+
+#=============================================================================
 # Target rules for targets named ament_cmake_python_copy_new_robot_controller
 
 # Build rule for target.
@@ -235,6 +248,30 @@ ament_cmake_python_build_new_robot_controller_egg: cmake_check_build_system
 ament_cmake_python_build_new_robot_controller_egg/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_build_new_robot_controller_egg.dir/build.make CMakeFiles/ament_cmake_python_build_new_robot_controller_egg.dir/build
 .PHONY : ament_cmake_python_build_new_robot_controller_egg/fast
+
+src/keyboard_control.o: src/keyboard_control.cpp.o
+.PHONY : src/keyboard_control.o
+
+# target to build an object file
+src/keyboard_control.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/keyboard_control.dir/build.make CMakeFiles/keyboard_control.dir/src/keyboard_control.cpp.o
+.PHONY : src/keyboard_control.cpp.o
+
+src/keyboard_control.i: src/keyboard_control.cpp.i
+.PHONY : src/keyboard_control.i
+
+# target to preprocess a source file
+src/keyboard_control.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/keyboard_control.dir/build.make CMakeFiles/keyboard_control.dir/src/keyboard_control.cpp.i
+.PHONY : src/keyboard_control.cpp.i
+
+src/keyboard_control.s: src/keyboard_control.cpp.s
+.PHONY : src/keyboard_control.s
+
+# target to generate assembly for a file
+src/keyboard_control.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/keyboard_control.dir/build.make CMakeFiles/keyboard_control.dir/src/keyboard_control.cpp.s
+.PHONY : src/keyboard_control.cpp.s
 
 src/simple_controller.o: src/simple_controller.cpp.o
 .PHONY : src/simple_controller.o
@@ -277,7 +314,11 @@ help:
 	@echo "... ament_cmake_python_copy_new_robot_controller"
 	@echo "... new_robot_controller_uninstall"
 	@echo "... uninstall"
+	@echo "... keyboard_control"
 	@echo "... simple_controller"
+	@echo "... src/keyboard_control.o"
+	@echo "... src/keyboard_control.i"
+	@echo "... src/keyboard_control.s"
 	@echo "... src/simple_controller.o"
 	@echo "... src/simple_controller.i"
 	@echo "... src/simple_controller.s"

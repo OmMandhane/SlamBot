@@ -1,0 +1,42 @@
+[0.070s] Invoking command in '/home/om/slambot/build/bumperbot_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/om/slambot/install/new_robot_description:/home/om/slambot/install/new_practice_bringup:/home/om/slambot/install/bumperbot_py_examples:/home/om/slambot/install/bumperbot_description:/opt/ros/humble /usr/bin/cmake /home/om/slambot/src/bumperbot_bringup -DCMAKE_INSTALL_PREFIX=/home/om/slambot/install/bumperbot_bringup
+[0.245s] -- The C compiler identification is GNU 11.4.0
+[0.403s] -- The CXX compiler identification is GNU 11.4.0
+[0.427s] -- Detecting C compiler ABI info
+[0.603s] -- Detecting C compiler ABI info - done
+[0.622s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.631s] -- Detecting C compile features
+[0.641s] -- Detecting C compile features - done
+[0.645s] -- Detecting CXX compiler ABI info
+[0.833s] -- Detecting CXX compiler ABI info - done
+[0.853s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.858s] -- Detecting CXX compile features
+[0.858s] -- Detecting CXX compile features - done
+[0.862s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.230s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.611s] -- Configuring done
+[1.611s] -- Generating done
+[1.612s] -- Build files have been written to: /home/om/slambot/build/bumperbot_bringup
+[1.635s] Invoked command in '/home/om/slambot/build/bumperbot_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/om/slambot/install/new_robot_description:/home/om/slambot/install/new_practice_bringup:/home/om/slambot/install/bumperbot_py_examples:/home/om/slambot/install/bumperbot_description:/opt/ros/humble /usr/bin/cmake /home/om/slambot/src/bumperbot_bringup -DCMAKE_INSTALL_PREFIX=/home/om/slambot/install/bumperbot_bringup
+[1.637s] Invoking command in '/home/om/slambot/build/bumperbot_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/om/slambot/install/new_robot_description:/home/om/slambot/install/new_practice_bringup:/home/om/slambot/install/bumperbot_py_examples:/home/om/slambot/install/bumperbot_description:/opt/ros/humble /usr/bin/cmake --build /home/om/slambot/build/bumperbot_bringup -- -j8 -l8
+[1.714s] Invoked command in '/home/om/slambot/build/bumperbot_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/om/slambot/install/new_robot_description:/home/om/slambot/install/new_practice_bringup:/home/om/slambot/install/bumperbot_py_examples:/home/om/slambot/install/bumperbot_description:/opt/ros/humble /usr/bin/cmake --build /home/om/slambot/build/bumperbot_bringup -- -j8 -l8
+[1.781s] Invoking command in '/home/om/slambot/build/bumperbot_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/om/slambot/install/new_robot_description:/home/om/slambot/install/new_practice_bringup:/home/om/slambot/install/bumperbot_py_examples:/home/om/slambot/install/bumperbot_description:/opt/ros/humble /usr/bin/cmake --install /home/om/slambot/build/bumperbot_bringup
+[1.802s] -- Install configuration: ""
+[1.802s] -- Installing: /home/om/slambot/install/bumperbot_bringup/share/bumperbot_bringup/launch
+[1.802s] -- Installing: /home/om/slambot/install/bumperbot_bringup/share/bumperbot_bringup/launch/simulated_robot.launch.py
+[1.808s] -- Installing: /home/om/slambot/install/bumperbot_bringup/share/bumperbot_bringup/launch/real_robot.launch.py
+[1.809s] -- Installing: /home/om/slambot/install/bumperbot_bringup/share/ament_index/resource_index/package_run_dependencies/bumperbot_bringup
+[1.810s] -- Installing: /home/om/slambot/install/bumperbot_bringup/share/ament_index/resource_index/parent_prefix_path/bumperbot_bringup
+[1.811s] -- Installing: /home/om/slambot/install/bumperbot_bringup/share/bumperbot_bringup/environment/ament_prefix_path.sh
+[1.814s] -- Installing: /home/om/slambot/install/bumperbot_bringup/share/bumperbot_bringup/environment/ament_prefix_path.dsv
+[1.814s] -- Installing: /home/om/slambot/install/bumperbot_bringup/share/bumperbot_bringup/environment/path.sh
+[1.814s] -- Installing: /home/om/slambot/install/bumperbot_bringup/share/bumperbot_bringup/environment/path.dsv
+[1.814s] -- Installing: /home/om/slambot/install/bumperbot_bringup/share/bumperbot_bringup/local_setup.bash
+[1.814s] -- Installing: /home/om/slambot/install/bumperbot_bringup/share/bumperbot_bringup/local_setup.sh
+[1.814s] -- Installing: /home/om/slambot/install/bumperbot_bringup/share/bumperbot_bringup/local_setup.zsh
+[1.814s] -- Installing: /home/om/slambot/install/bumperbot_bringup/share/bumperbot_bringup/local_setup.dsv
+[1.815s] -- Installing: /home/om/slambot/install/bumperbot_bringup/share/bumperbot_bringup/package.dsv
+[1.815s] -- Installing: /home/om/slambot/install/bumperbot_bringup/share/ament_index/resource_index/packages/bumperbot_bringup
+[1.815s] -- Installing: /home/om/slambot/install/bumperbot_bringup/share/bumperbot_bringup/cmake/bumperbot_bringupConfig.cmake
+[1.815s] -- Installing: /home/om/slambot/install/bumperbot_bringup/share/bumperbot_bringup/cmake/bumperbot_bringupConfig-version.cmake
+[1.816s] -- Installing: /home/om/slambot/install/bumperbot_bringup/share/bumperbot_bringup/package.xml
+[1.824s] Invoked command in '/home/om/slambot/build/bumperbot_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/om/slambot/install/new_robot_description:/home/om/slambot/install/new_practice_bringup:/home/om/slambot/install/bumperbot_py_examples:/home/om/slambot/install/bumperbot_description:/opt/ros/humble /usr/bin/cmake --install /home/om/slambot/build/bumperbot_bringup

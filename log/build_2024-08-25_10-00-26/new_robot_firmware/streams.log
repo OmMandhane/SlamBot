@@ -1,0 +1,37 @@
+[0.157s] Invoking command in '/home/om/slambot/build/new_robot_firmware': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/om/slambot/build/new_robot_firmware -- -j8 -l8
+[0.432s] [ 50%] [32mBuilding CXX object CMakeFiles/new_robot_firmware.dir/src/new_robot_interface.cpp.o[0m
+[9.958s] [100%] [32m[1mLinking CXX shared library libnew_robot_firmware.so[0m
+[10.955s] [100%] Built target new_robot_firmware
+[11.083s] Invoked command in '/home/om/slambot/build/new_robot_firmware' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/om/slambot/build/new_robot_firmware -- -j8 -l8
+[11.179s] Invoking command in '/home/om/slambot/build/new_robot_firmware': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/om/slambot/build/new_robot_firmware
+[11.201s] -- Install configuration: ""
+[11.205s] -- Installing: /home/om/slambot/install/new_robot_firmware/share/new_robot_firmware/new_robot_interface.xml
+[11.205s] -- Installing: /home/om/slambot/install/new_robot_firmware/lib/libnew_robot_firmware.so
+[11.207s] -- Set runtime path of "/home/om/slambot/install/new_robot_firmware/lib/libnew_robot_firmware.so" to ""
+[11.207s] -- Installing: /home/om/slambot/install/new_robot_firmware/include/include
+[11.207s] -- Installing: /home/om/slambot/install/new_robot_firmware/include/include/new_robot_firmware
+[11.207s] -- Installing: /home/om/slambot/install/new_robot_firmware/include/include/new_robot_firmware/new_robot_interface.hpp
+[11.211s] -- Installing: /home/om/slambot/install/new_robot_firmware/share/new_robot_firmware/launch
+[11.211s] -- Installing: /home/om/slambot/install/new_robot_firmware/share/new_robot_firmware/launch/hardware_interface.launch.py
+[11.212s] -- Installing: /home/om/slambot/install/new_robot_firmware/share/new_robot_firmware/environment/library_path.sh
+[11.212s] -- Installing: /home/om/slambot/install/new_robot_firmware/share/new_robot_firmware/environment/library_path.dsv
+[11.213s] -- Installing: /home/om/slambot/install/new_robot_firmware/share/ament_index/resource_index/package_run_dependencies/new_robot_firmware
+[11.213s] -- Installing: /home/om/slambot/install/new_robot_firmware/share/ament_index/resource_index/parent_prefix_path/new_robot_firmware
+[11.213s] -- Installing: /home/om/slambot/install/new_robot_firmware/share/new_robot_firmware/environment/ament_prefix_path.sh
+[11.215s] -- Installing: /home/om/slambot/install/new_robot_firmware/share/new_robot_firmware/environment/ament_prefix_path.dsv
+[11.219s] -- Installing: /home/om/slambot/install/new_robot_firmware/share/new_robot_firmware/environment/path.sh
+[11.224s] -- Installing: /home/om/slambot/install/new_robot_firmware/share/new_robot_firmware/environment/path.dsv
+[11.225s] -- Installing: /home/om/slambot/install/new_robot_firmware/share/new_robot_firmware/local_setup.bash
+[11.227s] -- Installing: /home/om/slambot/install/new_robot_firmware/share/new_robot_firmware/local_setup.sh
+[11.233s] -- Installing: /home/om/slambot/install/new_robot_firmware/share/new_robot_firmware/local_setup.zsh
+[11.233s] -- Installing: /home/om/slambot/install/new_robot_firmware/share/new_robot_firmware/local_setup.dsv
+[11.233s] -- Installing: /home/om/slambot/install/new_robot_firmware/share/new_robot_firmware/package.dsv
+[11.233s] -- Installing: /home/om/slambot/install/new_robot_firmware/share/ament_index/resource_index/packages/new_robot_firmware
+[11.233s] -- Installing: /home/om/slambot/install/new_robot_firmware/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/new_robot_firmware
+[11.233s] -- Installing: /home/om/slambot/install/new_robot_firmware/share/new_robot_firmware/cmake/ament_cmake_export_include_directories-extras.cmake
+[11.233s] -- Installing: /home/om/slambot/install/new_robot_firmware/share/new_robot_firmware/cmake/ament_cmake_export_libraries-extras.cmake
+[11.233s] -- Installing: /home/om/slambot/install/new_robot_firmware/share/new_robot_firmware/cmake/ament_cmake_export_dependencies-extras.cmake
+[11.234s] -- Installing: /home/om/slambot/install/new_robot_firmware/share/new_robot_firmware/cmake/new_robot_firmwareConfig.cmake
+[11.234s] -- Installing: /home/om/slambot/install/new_robot_firmware/share/new_robot_firmware/cmake/new_robot_firmwareConfig-version.cmake
+[11.234s] -- Installing: /home/om/slambot/install/new_robot_firmware/share/new_robot_firmware/package.xml
+[11.256s] Invoked command in '/home/om/slambot/build/new_robot_firmware' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/om/slambot/build/new_robot_firmware

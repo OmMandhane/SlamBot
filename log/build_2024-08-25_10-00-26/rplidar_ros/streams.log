@@ -1,0 +1,151 @@
+[0.115s] Invoking command in '/home/om/slambot/build/rplidar_ros': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/om/slambot/build/rplidar_ros -- -j8 -l8
+[0.452s] [35m[1mConsolidate compiler generated dependencies of target rplidar_composition_node[0m
+[0.475s] [ 11%] [32mBuilding CXX object CMakeFiles/rplidar_composition_node.dir/src/rplidar_node.cpp.o[0m
+[1.092s] In file included from [01m[K/home/om/slambot/src/rplidar_ros2/src/rplidar_node.cpp:36[m[K:
+[1.092s] [01m[K/home/om/slambot/src/rplidar_ros2/include/rplidar_node.hpp:50:[m[K [01;35m[Kwarning: [m[K"M_PI" redefined
+[1.092s]    50 | #define M_PI 3.1415926535897932384626433832795
+[1.092s]       | 
+[1.093s] In file included from [01m[K/usr/include/c++/11/cmath:45[m[K,
+[1.093s]                  from [01m[K/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/moving_average_statistics/types.hpp:18[m[K,
+[1.094s]                  from [01m[K/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/collector/generate_statistics_message.hpp:24[m[K,
+[1.094s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp:23[m[K,
+[1.094s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:50[m[K,
+[1.094s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:25[m[K,
+[1.094s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[1.094s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[1.094s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[1.094s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[1.094s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.094s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.094s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.094s]                  from [01m[K/home/om/slambot/src/rplidar_ros2/include/rplidar_node.hpp:34[m[K,
+[1.094s]                  from [01m[K/home/om/slambot/src/rplidar_ros2/src/rplidar_node.cpp:36[m[K:
+[1.094s] [01m[K/usr/include/math.h:1151:[m[K [01;36m[Knote: [m[Kthis is the location of the previous definition
+[1.094s]  1151 | # define M_PI           3.14159265358979323846  /* pi */
+[1.094s]       | 
+[6.694s] In file included from [01m[K/home/om/slambot/src/rplidar_ros2/./sdk/include/rplidar.h:39[m[K,
+[6.698s]                  from [01m[K/home/om/slambot/src/rplidar_ros2/include/rplidar_node.hpp:41[m[K,
+[6.698s]                  from [01m[K/home/om/slambot/src/rplidar_ros2/src/rplidar_node.cpp:36[m[K:
+[6.699s] [01m[K/home/om/slambot/src/rplidar_ros2/./sdk/include/rplidar_protocol.h:59:14:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[6.699s]    59 |     _u8 data[[01;35m[K0[m[K];
+[6.699s]       |              [01;35m[K^[m[K
+[6.699s] In file included from [01m[K/home/om/slambot/src/rplidar_ros2/./sdk/include/rplidar.h:40[m[K,
+[6.699s]                  from [01m[K/home/om/slambot/src/rplidar_ros2/include/rplidar_node.hpp:41[m[K,
+[6.699s]                  from [01m[K/home/om/slambot/src/rplidar_ros2/src/rplidar_node.cpp:36[m[K:
+[6.700s] [01m[K/home/om/slambot/src/rplidar_ros2/./sdk/include/rplidar_cmd.h:260:18:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[6.700s]   260 |     _u8  payload[[01;35m[K0[m[K];
+[6.700s]       |                  [01;35m[K^[m[K
+[6.934s] [01m[K/home/om/slambot/src/rplidar_ros2/src/rplidar_node.cpp:[m[K In member function ‘[01m[Kvoid rplidar_ros::rplidar_node::stop_motor({anonymous}::EmptyRequest, {anonymous}::EmptyResponse)[m[K’:
+[6.937s] [01m[K/home/om/slambot/src/rplidar_ros2/src/rplidar_node.cpp:248:50:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kreq[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[6.938s]   248 | void rplidar_node::stop_motor([01;35m[Kconst EmptyRequest req[m[K, EmptyResponse res)
+[6.938s]       |                               [01;35m[K~~~~~~~~~~~~~~~~~~~^~~[m[K
+[6.939s] [01m[K/home/om/slambot/src/rplidar_ros2/src/rplidar_node.cpp:248:69:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kres[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[6.939s]   248 | oid rplidar_node::stop_motor(const EmptyRequest req, [01;35m[KEmptyResponse res[m[K)
+[6.939s]       |                                                      [01;35m[K~~~~~~~~~~~~~~^~~[m[K
+[6.940s] 
+[6.940s] [01m[K/home/om/slambot/src/rplidar_ros2/src/rplidar_node.cpp:[m[K In member function ‘[01m[Kvoid rplidar_ros::rplidar_node::start_motor({anonymous}::EmptyRequest, {anonymous}::EmptyResponse)[m[K’:
+[6.940s] [01m[K/home/om/slambot/src/rplidar_ros2/src/rplidar_node.cpp:259:51:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kreq[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[6.941s]   259 | void rplidar_node::start_motor([01;35m[Kconst EmptyRequest req[m[K, EmptyResponse res)
+[6.941s]       |                                [01;35m[K~~~~~~~~~~~~~~~~~~~^~~[m[K
+[6.947s] [01m[K/home/om/slambot/src/rplidar_ros2/src/rplidar_node.cpp:259:70:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kres[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[6.949s]   259 | id rplidar_node::start_motor(const EmptyRequest req, [01;35m[KEmptyResponse res[m[K)
+[6.950s]       |                                                      [01;35m[K~~~~~~~~~~~~~~^~~[m[K
+[6.951s] 
+[6.958s] [01m[K/home/om/slambot/src/rplidar_ros2/src/rplidar_node.cpp:[m[K In member function ‘[01m[Kvoid rplidar_ros::rplidar_node::publish_loop()[m[K’:
+[6.959s] [01m[K/home/om/slambot/src/rplidar_ros2/src/rplidar_node.cpp:362:25:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[6.959s]   362 |           for (j = 0; [01;35m[Kj < m_angle_compensate_multiple[m[K; j++) {
+[6.960s]       |                       [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.962s] [01m[K/home/om/slambot/src/rplidar_ros2/src/rplidar_node.cpp:383:44:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[6.967s]   383 |       for (size_t x = start_node, y = 0; [01;35m[Kx < end_node[m[K; ++x, ++y) {
+[6.970s]       |                                          [01;35m[K~~^~~~~~~~~~[m[K
+[6.973s] [01m[K/home/om/slambot/src/rplidar_ros2/src/rplidar_node.cpp:390:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kangle_min[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[6.974s]   390 |     float [01;35m[Kangle_min[m[K = deg_2_rad(0.0f);
+[6.975s]       |           [01;35m[K^~~~~~~~~[m[K
+[6.975s] [01m[K/home/om/slambot/src/rplidar_ros2/src/rplidar_node.cpp:391:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kangle_max[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[6.980s]   391 |     float [01;35m[Kangle_max[m[K = deg_2_rad(359.0f);
+[6.980s]       |           [01;35m[K^~~~~~~~~[m[K
+[14.446s] [ 22%] [32m[1mLinking CXX shared library librplidar_composition_node.so[0m
+[15.412s] [ 77%] Built target rplidar_composition_node
+[15.491s] [ 88%] [32mBuilding CXX object CMakeFiles/rplidar_composition.dir/src/standalone_rplidar.cpp.o[0m
+[16.287s] In file included from [01m[K/home/om/slambot/src/rplidar_ros2/src/standalone_rplidar.cpp:16[m[K:
+[16.288s] [01m[K/home/om/slambot/src/rplidar_ros2/include/rplidar_node.hpp:50:[m[K [01;35m[Kwarning: [m[K"M_PI" redefined
+[16.288s]    50 | #define M_PI 3.1415926535897932384626433832795
+[16.289s]       | 
+[16.289s] In file included from [01m[K/usr/include/c++/11/cmath:45[m[K,
+[16.290s]                  from [01m[K/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/moving_average_statistics/types.hpp:18[m[K,
+[16.291s]                  from [01m[K/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/collector/generate_statistics_message.hpp:24[m[K,
+[16.291s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp:23[m[K,
+[16.291s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:50[m[K,
+[16.291s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:25[m[K,
+[16.291s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[16.291s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[16.291s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[16.291s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[16.291s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[16.291s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[16.295s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[16.295s]                  from [01m[K/home/om/slambot/src/rplidar_ros2/include/rplidar_node.hpp:34[m[K,
+[16.296s]                  from [01m[K/home/om/slambot/src/rplidar_ros2/src/standalone_rplidar.cpp:16[m[K:
+[16.296s] [01m[K/usr/include/math.h:1151:[m[K [01;36m[Knote: [m[Kthis is the location of the previous definition
+[16.297s]  1151 | # define M_PI           3.14159265358979323846  /* pi */
+[16.297s]       | 
+[24.073s] In file included from [01m[K/home/om/slambot/src/rplidar_ros2/./sdk/include/rplidar.h:39[m[K,
+[24.073s]                  from [01m[K/home/om/slambot/src/rplidar_ros2/include/rplidar_node.hpp:41[m[K,
+[24.073s]                  from [01m[K/home/om/slambot/src/rplidar_ros2/src/standalone_rplidar.cpp:16[m[K:
+[24.073s] [01m[K/home/om/slambot/src/rplidar_ros2/./sdk/include/rplidar_protocol.h:59:14:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[24.073s]    59 |     _u8 data[[01;35m[K0[m[K];
+[24.073s]       |              [01;35m[K^[m[K
+[24.073s] In file included from [01m[K/home/om/slambot/src/rplidar_ros2/./sdk/include/rplidar.h:40[m[K,
+[24.073s]                  from [01m[K/home/om/slambot/src/rplidar_ros2/include/rplidar_node.hpp:41[m[K,
+[24.073s]                  from [01m[K/home/om/slambot/src/rplidar_ros2/src/standalone_rplidar.cpp:16[m[K:
+[24.073s] [01m[K/home/om/slambot/src/rplidar_ros2/./sdk/include/rplidar_cmd.h:260:18:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[24.073s]   260 |     _u8  payload[[01;35m[K0[m[K];
+[24.074s]       |                  [01;35m[K^[m[K
+[26.163s] In file included from [01m[K/home/om/slambot/src/rplidar_ros2/src/standalone_rplidar.cpp:16[m[K:
+[26.167s] [01m[K/home/om/slambot/src/rplidar_ros2/include/rplidar_node.hpp:76:14:[m[K [01;35m[Kwarning: [m[K‘[01m[Kfloat rplidar_ros::getAngle(const rplidar_response_measurement_node_hq_t&)[m[K’ defined but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-function-Wunused-function]8;;[m[K]
+[26.168s]    76 | static float [01;35m[KgetAngle[m[K(const rplidar_response_measurement_node_hq_t & node)
+[26.168s]       |              [01;35m[K^~~~~~~~[m[K
+[26.626s] [100%] [32m[1mLinking CXX executable rplidar_composition[0m
+[27.382s] [100%] Built target rplidar_composition
+[27.465s] Invoked command in '/home/om/slambot/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/om/slambot/build/rplidar_ros -- -j8 -l8
+[27.664s] Invoking command in '/home/om/slambot/build/rplidar_ros': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/om/slambot/build/rplidar_ros
+[27.688s] -- Install configuration: ""
+[27.688s] -- Installing: /home/om/slambot/install/rplidar_ros/lib/rplidar_ros/rplidar_composition
+[27.689s] -- Set runtime path of "/home/om/slambot/install/rplidar_ros/lib/rplidar_ros/rplidar_composition" to ""
+[27.689s] -- Installing: /home/om/slambot/install/rplidar_ros/share/rplidar_ros/launch
+[27.690s] -- Installing: /home/om/slambot/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s1.launch.py
+[27.690s] -- Installing: /home/om/slambot/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a3.launch.py
+[27.693s] -- Installing: /home/om/slambot/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s1_tcp.launch.py
+[27.693s] -- Installing: /home/om/slambot/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar.launch.py
+[27.693s] -- Installing: /home/om/slambot/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a3.launch.py
+[27.695s] -- Installing: /home/om/slambot/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s1_tcp.launch.py
+[27.698s] -- Installing: /home/om/slambot/install/rplidar_ros/share/rplidar_ros/launch/rplidar.launch.py
+[27.699s] -- Installing: /home/om/slambot/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s1.launch.py
+[27.701s] -- Installing: /home/om/slambot/install/rplidar_ros/share/rplidar_ros/launch/test_rplidar_a3.launch.py
+[27.704s] -- Installing: /home/om/slambot/install/rplidar_ros/share/rplidar_ros/rviz
+[27.704s] -- Installing: /home/om/slambot/install/rplidar_ros/share/rplidar_ros/rviz/rplidar.rviz
+[27.705s] -- Installing: /home/om/slambot/install/rplidar_ros/lib/librplidar_composition_node.so
+[27.714s] -- Set runtime path of "/home/om/slambot/install/rplidar_ros/lib/librplidar_composition_node.so" to ""
+[27.715s] -- Installing: /home/om/slambot/install/rplidar_ros/include
+[27.715s] -- Installing: /home/om/slambot/install/rplidar_ros/include/rplidar_node.hpp
+[27.716s] -- Installing: /home/om/slambot/install/rplidar_ros/include/visibility.h
+[27.716s] -- Up-to-date: /home/om/slambot/install/rplidar_ros/lib/rplidar_ros/rplidar_composition
+[27.717s] -- Installing: /home/om/slambot/install/rplidar_ros/share/ament_index/resource_index/package_run_dependencies/rplidar_ros
+[27.718s] -- Installing: /home/om/slambot/install/rplidar_ros/share/ament_index/resource_index/parent_prefix_path/rplidar_ros
+[27.719s] -- Installing: /home/om/slambot/install/rplidar_ros/share/rplidar_ros/environment/ament_prefix_path.sh
+[27.719s] -- Installing: /home/om/slambot/install/rplidar_ros/share/rplidar_ros/environment/ament_prefix_path.dsv
+[27.719s] -- Installing: /home/om/slambot/install/rplidar_ros/share/rplidar_ros/environment/path.sh
+[27.719s] -- Installing: /home/om/slambot/install/rplidar_ros/share/rplidar_ros/environment/path.dsv
+[27.723s] -- Installing: /home/om/slambot/install/rplidar_ros/share/rplidar_ros/local_setup.bash
+[27.726s] -- Installing: /home/om/slambot/install/rplidar_ros/share/rplidar_ros/local_setup.sh
+[27.730s] -- Installing: /home/om/slambot/install/rplidar_ros/share/rplidar_ros/local_setup.zsh
+[27.731s] -- Installing: /home/om/slambot/install/rplidar_ros/share/rplidar_ros/local_setup.dsv
+[27.734s] -- Installing: /home/om/slambot/install/rplidar_ros/share/rplidar_ros/package.dsv
+[27.735s] -- Installing: /home/om/slambot/install/rplidar_ros/share/ament_index/resource_index/packages/rplidar_ros
+[27.736s] -- Installing: /home/om/slambot/install/rplidar_ros/share/ament_index/resource_index/rclcpp_components/rplidar_ros
+[27.737s] -- Installing: /home/om/slambot/install/rplidar_ros/share/rplidar_ros/cmake/ament_cmake_export_dependencies-extras.cmake
+[27.738s] -- Installing: /home/om/slambot/install/rplidar_ros/share/rplidar_ros/cmake/ament_cmake_export_include_directories-extras.cmake
+[27.738s] -- Installing: /home/om/slambot/install/rplidar_ros/share/rplidar_ros/cmake/rplidar_rosConfig.cmake
+[27.738s] -- Installing: /home/om/slambot/install/rplidar_ros/share/rplidar_ros/cmake/rplidar_rosConfig-version.cmake
+[27.738s] -- Installing: /home/om/slambot/install/rplidar_ros/share/rplidar_ros/package.xml
+[27.738s] Invoked command in '/home/om/slambot/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/om/slambot/build/rplidar_ros

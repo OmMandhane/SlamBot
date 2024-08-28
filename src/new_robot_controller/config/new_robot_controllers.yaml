@@ -1,6 +1,7 @@
 controller_manager:
   ros__parameters:
     update_rate: 100 # Hz
+    use_sim_time: true
 
     new_robot_controller:
       type: diff_drive_controller/DiffDriveController
@@ -23,8 +24,8 @@ new_robot_controller:
     pose_covariance_diagonal : [0.001, 0.001, 1.0e-3, 1.0e-3, 1.0e-3, 0.01]
     twist_covariance_diagonal: [0.001, 0.001, 1.0e-3, 1.0e-3, 1.0e-3, 0.01]
 
-    wheel_separation : 0.17
-    wheel_radius : 0.033
+    wheel_separation : 0.4
+    wheel_radius : 0.1
 
     wheel_separation_multiplier: 1.0
     left_wheel_radius_multiplier: 1.0

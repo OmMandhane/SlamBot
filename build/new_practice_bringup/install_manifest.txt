@@ -1,3 +1,4 @@
+/home/om/slambot/install/new_practice_bringup/share/new_practice_bringup//launch/sim_robot_bringup.launch.py
 /home/om/slambot/install/new_practice_bringup/share/new_practice_bringup//launch/real_robot_bringup.launch.py
 /home/om/slambot/install/new_practice_bringup/share/new_practice_bringup//launch/new_bringup.launch.xml
 /home/om/slambot/install/new_practice_bringup/share/new_practice_bringup//rviz/urdf_config.rviz

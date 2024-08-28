@@ -8,6 +8,7 @@
 /home/om/slambot/install/new_robot_controller/local/lib/python3.10/dist-packages/new_robot_controller/__init__.py
 /home/om/slambot/install/new_robot_controller/include/include/new_robot_controller/simple_controller.hpp
 /home/om/slambot/install/new_robot_controller/lib/new_robot_controller/simple_controller
+/home/om/slambot/install/new_robot_controller/lib/new_robot_controller/keyboard_control
 /home/om/slambot/install/new_robot_controller/share/new_robot_controller/launch/joystick_teleop.launch.py
 /home/om/slambot/install/new_robot_controller/share/new_robot_controller/launch/simple_controller.launch.py
 /home/om/slambot/install/new_robot_controller/share/new_robot_controller/config/joy_config.yaml
