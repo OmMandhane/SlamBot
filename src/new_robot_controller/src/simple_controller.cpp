@@ -1,6 +1,7 @@
 #include "new_robot_controller/simple_controller.hpp"
 #include <Eigen/Geometry>
 #include <tf2/LinearMath/Quaternion.h>
+#include <rclcpp/rclcpp.hpp>
 
 
 using std::placeholders::_1;

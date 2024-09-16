@@ -1,3 +1,4 @@
+/home/om/slambot/install/new_robot_description/share/new_robot_description//urdf/camera.xacro
 /home/om/slambot/install/new_robot_description/share/new_robot_description//urdf/base_robot.xacro
 /home/om/slambot/install/new_robot_description/share/new_robot_description//urdf/common_properties.xacro
 /home/om/slambot/install/new_robot_description/share/new_robot_description//urdf/base_robot_gazebo.xacro
